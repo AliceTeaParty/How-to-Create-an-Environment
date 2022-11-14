@@ -10,7 +10,7 @@
 
 ## 组建基本的 Python 环境
 
-众所周知 VapourSynth 是搭建在 Python 上的，在 [Python 官网](https://www.python.org/downloads/windows/)下载一个 `Windows embeddable package (64-bit)`，他应该是一个压缩包，解压到某个文件夹里，比如说 `Python-VapourSynth`，那么这就是环境的主目录了。
+众所周知 VapourSynth 是搭建在 Python 上的，在 [Python 官网](https://www.python.org/downloads/windows/)下载一个 `Windows embeddable package (64-bit)`，注意 VapourSynth 版本对应的 Python 版本，不确定在群里问一问。他应该是一个压缩包，解压到某个文件夹里，比如说 `Python-VapourSynth`，那么这就是环境的主目录了。
 
 接下来需要到 [VapourSynth 的 GitHub 仓库](https://github.com/vapoursynth/vapoursynth/releases)里下载一个 `VapourSynth64-Portable`，直接解压到主目录 `Python-VapourSynth` 文件夹下，应该会提示有几个文件重复，直接替换就好。
 
