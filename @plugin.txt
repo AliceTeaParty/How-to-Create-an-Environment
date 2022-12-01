@@ -49,6 +49,7 @@ https://github.com/vapoursynth/subtext latest R3
 -------------------------------------------------------------------------------
 --------                         Plugin-Level2                         --------
 -------------------------------------------------------------------------------
+https://github.com/dubhater/vapoursynth-temporalsoften2 v1 
 https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain r10 
 https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TTempSmooth r4.1 
 https://github.com/AmusementClub/VapourSynth-FFT3DFilter R2.AC3 
@@ -101,7 +102,6 @@ https://github.com/dubhater/vapoursynth-smoothuv v3
     注意还要下 Source code 里的 RainbowSmooth.py，丢到 site-packages 下
 https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-RemapFrames v1.1
 https://github.com/Mikewando/vsfpng 1.0 
-https://github.com/IFeelBloated/vapoursynth-mvtools-sf r9 
 https://github.com/IFeelBloated/RGSF r5 
 https://github.com/dubhater/vapoursynth-msmoosh v1.1 
 https://github.com/dubhater/vapoursynth-tedgemask v1 
