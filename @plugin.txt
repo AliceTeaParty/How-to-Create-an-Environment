@@ -38,7 +38,7 @@ https://github.com/Irrational-Encoding-Wizardry/descale latest r8
     descale.py 丢到 site-packages 下
 https://github.com/EleonoreMizo/fmtconv latest r30
 https://github.com/AmusementClub/flash3kyuu_deband latest 2.0.1-AC
-https://github.com/AmusementClub/neo_f3kdb latest r7 with VC runtime statically linked
+https://github.com/HomeOfAviSynthPlusEvolution/neo_f3kdb r9
 https://github.com/AkarinVS/vapoursynth-plugin latest v0.95
 https://github.com/vapoursynth/vs-removegrain latest R1 
 https://github.com/vapoursynth/vs-miscfilters-obsolete latest R2 
