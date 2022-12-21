@@ -9,6 +9,8 @@ https://github.com/WolframRhodium/VapourSynth-BM3DCUDA latest
     CPU 版本需要选择对应你 CPU 架构的。
 https://www.rationalqm.us/dgdecnv/binaries/ latest
     下载后解压到 x26x 下。
+https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan latest
+    记得下载模型文件。
 
 
 -------------------------------------------------------------------------------
