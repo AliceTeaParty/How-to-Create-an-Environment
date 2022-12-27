@@ -118,7 +118,7 @@ https://github.com/Irrational-Encoding-Wizardry/kagefunc/blob/master/kagefunc.py
 https://github.com/HomeOfVapourSynthEvolution/havsfunc/blob/master/havsfunc.py 7f0a9a7
 https://github.com/HomeOfVapourSynthEvolution/vsTAAmbk/blob/master/vsTAAmbk.py c707f5a
 https://github.com/Irrational-Encoding-Wizardry/fvsfunc/blob/master/fvsfunc.py 076dbde 
-https://github.com/WolframRhodium/muvsfunc/blob/master/muvsfunc.py 078264a
+https://github.com/WolframRhodium/muvsfunc/blob/master/muvsfunc.py ec233aa
 https://github.com/xyx98/my-vapoursynth-script/blob/master/xvs.py b24d559
 
 
