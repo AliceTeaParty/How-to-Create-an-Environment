@@ -8,7 +8,7 @@ https://github.com/AmusementClub/vs-mlrt latest
 https://github.com/WolframRhodium/VapourSynth-BM3DCUDA latest
     CPU 版本需要选择对应你 CPU 架构的。
 https://www.rationalqm.us/dgdecnv/binaries/ latest
-    下载后解压到 x26x 下。
+    下载后解压，把 DGDecodeNV.dll 和 DGIndexNV.exe 拷贝到 x26x 下。
 https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan latest
     记得下载模型文件。
 
@@ -16,13 +16,14 @@ https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan latest
 -------------------------------------------------------------------------------
 --------                            Modules                            --------
 -------------------------------------------------------------------------------
-https://github.com/Infiziert90/getnative 3.2.1
-https://github.com/HomeOfVapourSynthEvolution/mvsfunc r10 
-https://github.com/Irrational-Encoding-Wizardry/vsutil 0.8.0 
-https://github.com/Irrational-Encoding-Wizardry/vs-tools v1.3.0
-https://github.com/Irrational-Encoding-Wizardry/vs-exprtools v1.2.1 
-https://github.com/Irrational-Encoding-Wizardry/vs-rgtools v1.2.0
-https://github.com/dnjulek/jvsfunc 1.0.15
+https://github.com/Infiziert90/getnative master
+https://github.com/HomeOfVapourSynthEvolution/mvsfunc master
+https://github.com/Irrational-Encoding-Wizardry/vsutil master
+https://github.com/Irrational-Encoding-Wizardry/vs-tools master
+https://github.com/Irrational-Encoding-Wizardry/vs-exprtools master
+https://github.com/Irrational-Encoding-Wizardry/vs-pyplugin master
+https://github.com/Irrational-Encoding-Wizardry/vs-rgtools master
+https://github.com/dnjulek/jvsfunc main
 
 
 -------------------------------------------------------------------------------
