@@ -16,14 +16,16 @@ https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan latest
 -------------------------------------------------------------------------------
 --------                            Modules                            --------
 -------------------------------------------------------------------------------
-https://github.com/Infiziert90/getnative master
-https://github.com/HomeOfVapourSynthEvolution/mvsfunc master
-https://github.com/Irrational-Encoding-Wizardry/vsutil master
-https://github.com/Irrational-Encoding-Wizardry/vs-tools master
-https://github.com/Irrational-Encoding-Wizardry/vs-exprtools master
-https://github.com/Irrational-Encoding-Wizardry/vs-pyplugin master
-https://github.com/Irrational-Encoding-Wizardry/vs-rgtools master
-https://github.com/dnjulek/jvsfunc main
+getnative
+mvsfunc
+vsutil
+vs-tools
+vs-exprtools
+vs-pyplugin
+vs-rgtools
+jvsfunc
+vs-rekt
+awsmfunc
 
 
 -------------------------------------------------------------------------------
