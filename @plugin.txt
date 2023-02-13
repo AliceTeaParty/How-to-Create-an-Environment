@@ -19,7 +19,7 @@ https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan latest
 git+https://github.com/HomeOfVapourSynthEvolution/mvsfunc
 getnative
 vsutil
-vs-tools vs-exprtools vs-pyplugin vs-rgtools jvsfunc
+vstools vsexprtools vspyplugin vs-rgtools jvsfunc
 vs-rekt awsmfunc
 yvsfunc
     yvsfunc 不能使用 pip 安装，安装方法参考教程
