@@ -16,13 +16,20 @@ https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan latest
 -------------------------------------------------------------------------------
 --------                            Modules                            --------
 -------------------------------------------------------------------------------
-git+https://github.com/HomeOfVapourSynthEvolution/mvsfunc
-getnative
+mvsfunc 
+    pip install --no-deps git+https://github.com/HomeOfVapourSynthEvolution/mvsfunc
+getnative 
+    pip install matplotlib
+    pip install --no-deps getnative
 vsutil
-vstools vsexprtools vspyplugin vsrgtools jvsfunc
-vs-rekt awsmfunc
+    pip install --no-deps vsutil
+jvsfunc
+    pip install rich
+    pip install --no-deps vstools vsexprtools vspyplugin vsrgtools jvsfunc
+awsmfunc
+    pip install vs-rekt awsmfunc
 yvsfunc
-    yvsfunc 不能使用 pip 安装，安装方法参考教程
+    yvsfunc 不能使用 pip 安装，安装方法参考 README
 
 
 -------------------------------------------------------------------------------
