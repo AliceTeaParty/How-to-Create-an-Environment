@@ -4,6 +4,9 @@
 
 @plugins.txt 中的 `Module` 部分最好按从上到下顺序安装。`Plugin-Level1` 和 `Script-Level1` 需要你 Watch 这些插件的仓库以便及时收到更新推送，他们使用的频率比较大；`Plugin-Level2` 和 `Script-Level2` 则没有必要，大多是一些不太能用到的或者是不太可能更新的插件或脚本。
 
+# 一首歌的时间带你创建环境
+https://github.com/AliceTeaParty/How-to-Create-an-Environment/releases/download/Video/Tutorial.Create.Environment.mp4
+
 # 创建一个 VapourSynth 环境
 
 本文语意中的 VapourSynth 环境基本上由 Python 的 Windows embeddable package、VapourSynth-Portable、动态链接库插件、Python 脚本插件和一些 Python 包组成。
