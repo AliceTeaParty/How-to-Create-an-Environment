@@ -5,7 +5,7 @@
 @plugins.txt 中的 `Module` 部分最好按从上到下顺序安装。`Plugin-Level1` 和 `Script-Level1` 需要你 Watch 这些插件的仓库以便及时收到更新推送，他们使用的频率比较大；`Plugin-Level2` 和 `Script-Level2` 则没有必要，大多是一些不太能用到的或者是不太可能更新的插件或脚本。
 
 # Video
-https://github.com/AliceTeaParty/How-to-Create-an-Environment/blob/main/tutorial_create_environment.mp4?raw=true
+https://github.com/AliceTeaParty/How-to-Create-an-Environment/raw/main/tutorial_create_environment.mp4
 
 # 创建一个 VapourSynth 环境
 
