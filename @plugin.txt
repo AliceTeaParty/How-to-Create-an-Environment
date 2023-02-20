@@ -116,6 +116,7 @@ https://github.com/dubhater/vapoursynth-msmoosh v1.1
 https://github.com/dubhater/vapoursynth-tedgemask v1 
 https://github.com/dubhater/vapoursynth-minideen v2 
 https://github.com/dubhater/vapoursynth-histogram v2
+https://github.com/dnjulek/vapoursynth-planestatsmod r3
 
 
 -------------------------------------------------------------------------------
