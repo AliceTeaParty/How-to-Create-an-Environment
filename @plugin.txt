@@ -64,9 +64,7 @@ https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TTempSmooth r4.1
 https://github.com/AmusementClub/VapourSynth-FFT3DFilter R2.AC3 
 https://github.com/AmusementClub/vs-boxblur v2 
 https://github.com/AmusementClub/vcm 2021-09-14 build, with libfftw3f statically linked
-https://github.com/AmusementClub/vs-placebo v1.4.3-mod 
-https://github.com/quietvoid/dovi_tool/ libdovi-1.6.7
-    注意下的是 precompiled DLL，不要下成 exe 的版本了
+https://github.com/Lypheo/vs-placebo v1.4.4
 https://github.com/AmusementClub/VapourSynth-CAS r2.AC
 https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3 r4
     不要下 non-OpenCL
