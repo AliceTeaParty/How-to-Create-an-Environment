@@ -50,15 +50,17 @@ https://github.com/AmusementClub/flash3kyuu_deband latest 2.0.1-AC
 https://github.com/HomeOfAviSynthPlusEvolution/neo_f3kdb latest r9
 https://github.com/AkarinVS/vapoursynth-plugin latest v0.95
 https://github.com/vapoursynth/vs-removegrain latest R1 
-https://github.com/vapoursynth/vs-miscfilters-obsolete latest R2 
-https://github.com/vapoursynth/vivtc latest R1 
-https://github.com/vapoursynth/subtext latest R3
-https://github.com/Lypheo/vs-placebo v1.4.4
+https://github.com/Lypheo/vs-placebo latest v1.4.4
+https://github.com/Mr-Z-2697/vapoursynth-mvtools v23+
+    libmvtools.static.fftw
 
 
 -------------------------------------------------------------------------------
 --------                         Plugin-Level2                         --------
 -------------------------------------------------------------------------------
+https://github.com/vapoursynth/vivtc latest R1 
+https://github.com/vapoursynth/subtext latest R3
+https://github.com/vapoursynth/vs-miscfilters-obsolete latest R2 
 https://github.com/dubhater/vapoursynth-temporalsoften2 v1 
 https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain r10 
 https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TTempSmooth r4.1 
@@ -85,7 +87,6 @@ https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF r5
 https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Deblock r6 
 https://github.com/dubhater/vapoursynth-fluxsmooth v2 
 https://vsdb.top/plugins/hqdn3d r2.0.1
-https://github.com/dubhater/vapoursynth-mvtools v23 
 https://github.com/myrsloik/DotKill R2 
 https://github.com/dubhater/vapoursynth-sangnom r42 
 https://github.com/dubhater/vapoursynth-temporalmedian v1 
