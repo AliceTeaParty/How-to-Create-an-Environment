@@ -30,6 +30,8 @@ awsmfunc
     pip install vs-rekt awsmfunc
 yvsfunc
     yvsfunc 不能使用 pip 安装，安装方法参考 README
+rksfunc
+    rksfunc 不能使用 pip 安装，安装方法参考 README
 
 
 -------------------------------------------------------------------------------
