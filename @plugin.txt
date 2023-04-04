@@ -38,7 +38,7 @@ yvsfunc
 https://github.com/AmusementClub/KNLMeansCL latest v1.1.1e-AC
 https://github.com/AmusementClub/VapourSynth-TCanny latest r14.AC4
 https://github.com/AmusementClub/VapourSynth-DFTTest latest r7.AC
-https://github.com/AkarinVS/L-SMASH-Works latest vA.3j
+https://github.com/AkarinVS/L-SMASH-Works latest vA.3k
     下载 src 版本
 https://github.com/AmusementClub/VapourSynth-Bilateral latest r3.AC
 https://github.com/WolframRhodium/VapourSynth-BilateralGPU latest, r9
