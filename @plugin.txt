@@ -17,21 +17,20 @@ https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan latest
 --------                            Modules                            --------
 -------------------------------------------------------------------------------
 mvsfunc 
-    pip install --no-deps git+https://github.com/HomeOfVapourSynthEvolution/mvsfunc
+    pip install git+https://github.com/HomeOfVapourSynthEvolution/mvsfunc
 getnative 
-    pip install matplotlib
-    pip install --no-deps getnative
+    pip install getnative
 vsutil
-    pip install --no-deps vsutil
-jvsfunc
-    pip install rich
-    pip install --no-deps vstools vsexprtools vspyplugin vsrgtools jvsfunc
+    pip install vsutil
 awsmfunc
     pip install vs-rekt awsmfunc
+vsdehalo
+    pip install vsdehalo
 yvsfunc
     yvsfunc 不能使用 pip 安装，安装方法参考 README
 rksfunc
     rksfunc 不能使用 pip 安装，安装方法参考 README
+全部 pip 安装完之后运行 pip uninstall vapoursynth
 
 
 -------------------------------------------------------------------------------
@@ -39,109 +38,63 @@ rksfunc
 -------------------------------------------------------------------------------
 https://github.com/AmusementClub/KNLMeansCL latest v1.1.1e-AC
 https://github.com/AmusementClub/VapourSynth-TCanny latest r14.AC4
-https://github.com/AmusementClub/VapourSynth-DFTTest latest r7.AC
 https://github.com/AkarinVS/L-SMASH-Works latest vA.3k
     下载 src 版本
-https://github.com/AmusementClub/VapourSynth-Bilateral latest r3.AC
-https://github.com/WolframRhodium/VapourSynth-BilateralGPU latest, r9
-https://github.com/AmusementClub/vs-imwri latest vA.R2
 https://github.com/Irrational-Encoding-Wizardry/descale latest r8
     descale.py 丢到 site-packages 下
 https://github.com/EleonoreMizo/fmtconv latest r30
-https://github.com/AmusementClub/flash3kyuu_deband latest 2.0.1-AC
 https://github.com/HomeOfAviSynthPlusEvolution/neo_f3kdb latest r9
 https://github.com/AkarinVS/vapoursynth-plugin latest v0.95
-https://github.com/vapoursynth/vs-removegrain latest R1 
 https://github.com/Lypheo/vs-placebo latest v1.4.4
-https://github.com/Mr-Z-2697/vapoursynth-mvtools v23+
-    libmvtools.static.fftw
+
 
 
 -------------------------------------------------------------------------------
 --------                         Plugin-Level2                         --------
 -------------------------------------------------------------------------------
+https://github.com/AmusementClub/VapourSynth-Bilateral latest r3.AC
+https://github.com/AmusementClub/vs-imwri latest vA.R2
+https://github.com/AmusementClub/flash3kyuu_deband latest 2.0.1-AC
+https://github.com/vapoursynth/vs-removegrain latest R1 
+https://github.com/Mr-Z-2697/vapoursynth-mvtools v23+
+    libmvtools.static.fftw
+https://github.com/AmusementClub/VapourSynth-DFTTest latest r7.AC
 https://github.com/vapoursynth/vivtc latest R1 
-https://github.com/vapoursynth/subtext latest R3
-https://github.com/vapoursynth/vs-miscfilters-obsolete latest R2 
-https://github.com/dubhater/vapoursynth-temporalsoften2 v1 
+https://github.com/vapoursynth/subtext latest R4
 https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain r10 
-https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TTempSmooth r4.1 
-https://github.com/AmusementClub/VapourSynth-FFT3DFilter R2.AC3 
-https://github.com/AmusementClub/vs-boxblur v2 
-https://github.com/AmusementClub/vcm 2021-09-14 build, with libfftw3f statically linked
-https://github.com/AmusementClub/VapourSynth-CAS r2.AC
 https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3 r4
     不要下 non-OpenCL
-https://github.com/AmusementClub/ffms2 nightly-20220119 
-https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI2 r7 
-https://github.com/AmusementClub/VapourSynth-DCTFilter r3.1-A
-https://github.com/AmusementClub/VapourSynth-BM3D r9.AC 
-https://github.com/AmusementClub/assrender v0.37.1
-https://github.com/AmusementClub/vapoursynth-autocrop 0.1-AC MSVC2019 build 
-https://github.com/AmusementClub/FFTSpectrum r1.AC 
-https://github.com/AmusementClub/ReduceFlicker version 0.0.0 
-https://github.com/AmusementClub/Vapoursynth-VFRToCFR v1.0.1-AC 
-https://github.com/dubhater/vapoursynth-nnedi3 v12 
-    下载 nnedi3_weights.bin 放在 plugins 下
 https://github.com/sekrit-twc/znedi3 r2.1 
 https://github.com/HomeOfVapourSynthEvolution/VapourSynth-NNEDI3CL r8 
-https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF r5 
-https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Deblock r6 
-https://github.com/dubhater/vapoursynth-fluxsmooth v2 
-https://vsdb.top/plugins/hqdn3d r2.0.1
-https://github.com/myrsloik/DotKill R2 
 https://github.com/dubhater/vapoursynth-sangnom r42 
-https://github.com/dubhater/vapoursynth-temporalmedian v1 
 https://github.com/dubhater/vapoursynth-awarpsharp2 v4 
-https://github.com/sorayuki/VSFilterMod r5.2.6 
-https://github.com/HomeOfVapourSynthEvolution/VSFilter r4 
-https://github.com/dubhater/vapoursynth-wwxd v1.0 
 https://github.com/dubhater/vapoursynth-tivtc v2 
 https://github.com/Irrational-Encoding-Wizardry/adaptivegrain 0.3.1 
     下载 no-fma 版本
-https://github.com/kedaitinh12/VapourSynth-EEDI2CUDA M2p3 
 https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Retinex r4 
 https://github.com/dubhater/vapoursynth-fillborders v2 
 https://github.com/sekrit-twc/EdgeFixer r2 
 https://github.com/dubhater/vapoursynth-tcomb v4 
 https://github.com/dubhater/vapoursynth-bifrost v2.2 
-https://github.com/dubhater/vapoursynth-scxvid v1 
-https://github.com/Kiyamou/VapourSynth-JincResize r7.2 
-https://github.com/Kiyamou/VapourSynth-AreaResize r2 
 https://github.com/dubhater/vapoursynth-smoothuv v3 
     注意还要下 Source code 里的 RainbowSmooth.py，丢到 site-packages 下
-https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-RemapFrames v1.1
-https://github.com/Mikewando/vsfpng 1.0 
-https://github.com/IFeelBloated/RGSF r5 
-https://github.com/dubhater/vapoursynth-msmoosh v1.1 
-https://github.com/dubhater/vapoursynth-tedgemask v1 
-https://github.com/dubhater/vapoursynth-minideen v2 
-https://github.com/dubhater/vapoursynth-histogram v2
-https://github.com/dnjulek/vapoursynth-planestatsmod r3
+https://github.com/AmusementClub/vapoursynth-histogram v2.1-AC
 
 
 -------------------------------------------------------------------------------
 --------                         Script-Level1                         --------
 -------------------------------------------------------------------------------
 https://github.com/Irrational-Encoding-Wizardry/kagefunc/blob/master/kagefunc.py 96947a1
-https://github.com/HomeOfVapourSynthEvolution/havsfunc/blob/master/havsfunc.py 7f0a9a7
-https://github.com/HomeOfVapourSynthEvolution/vsTAAmbk/blob/master/vsTAAmbk.py c707f5a
+https://github.com/HomeOfVapourSynthEvolution/vsTAAmbk/blob/master/vsTAAmbk.py fef19f8
 https://github.com/Irrational-Encoding-Wizardry/fvsfunc/blob/master/fvsfunc.py 076dbde 
-https://github.com/WolframRhodium/muvsfunc/blob/master/muvsfunc.py ec233aa
-https://github.com/xyx98/my-vapoursynth-script/blob/master/xvs.py b24d559
+https://github.com/WolframRhodium/muvsfunc/blob/master/muvsfunc.py 0ab81b5
 
 
 -------------------------------------------------------------------------------
 --------                         Script-Level2                         --------
 -------------------------------------------------------------------------------
-https://github.com/dubhater/vapoursynth-adjust/blob/master/adjust.py a3af7cb
-https://github.com/IFeelBloated/Oyster/blob/master/Oyster.py 7d52c78
+https://github.com/HomeOfVapourSynthEvolution/havsfunc/blob/7f0a9a7a37b60a05b9f408024d203e511e544a61/havsfunc.py
 https://gist.github.com/4re/342624c9e1a144a696c6
-https://gist.github.com/RyougiKukoc/872cffcf12da70704920a687b0f9bbc0
 https://github.com/HomeOfVapourSynthEvolution/nnedi3_resample/blob/master/nnedi3_resample.py 314c644 
-https://github.com/IFeelBloated/vapoursynth-mvtools-sf/blob/legacy/legacy/src/mvmulti.py 75e70c1 
-https://github.com/Vapoursynth-Plugins-Gitify/G41Fun/blob/master/G41Fun.py c395f09
 https://github.com/fdar0536/VapourSynth-Contra-Sharpen-mod/blob/master/CSMOD.py b9ff725
-https://github.com/dubhater/vapoursynth-dfmderainbow/blob/master/dfmderainbow.py 44dc654
-https://github.com/OpusGang/adptvgrnMod/blob/master/adptvgrnMod.py ea68626
 https://gist.github.com/RyougiKukoc/c3832d96a8dce6f609f6e29888af94a6
