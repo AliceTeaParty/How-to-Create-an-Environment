@@ -9,8 +9,6 @@ https://github.com/WolframRhodium/VapourSynth-BM3DCUDA latest
     CPU 版本需要选择对应你 CPU 架构的。
 https://www.rationalqm.us/dgdecnv/binaries/ latest
     下载后解压，把 DGDecodeNV.dll 和 DGIndexNV.exe 拷贝到 x26x 下。
-https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan latest
-    记得下载模型文件。
 
 
 -------------------------------------------------------------------------------
@@ -36,6 +34,11 @@ rksfunc
 -------------------------------------------------------------------------------
 --------                         Plugin-Level1                         --------
 -------------------------------------------------------------------------------
+https://github.com/Jaded-Encoding-Thaumaturgy/DualSynth-madVR latest R3
+    在 dll 同目录下创建 madVR 子文件夹，放入仓库提到的三个文件。
+    https://www.videohelp.com/software/madVR 0.92.17
+https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan latest R5
+    记得下载模型文件。
 https://github.com/AmusementClub/KNLMeansCL latest v1.1.1e-AC
 https://github.com/AmusementClub/VapourSynth-TCanny latest r14.AC4
 https://github.com/AkarinVS/L-SMASH-Works latest vA.3k
@@ -46,7 +49,6 @@ https://github.com/EleonoreMizo/fmtconv latest r30
 https://github.com/HomeOfAviSynthPlusEvolution/neo_f3kdb latest r9
 https://github.com/AkarinVS/vapoursynth-plugin latest v0.95
 https://github.com/Lypheo/vs-placebo latest v1.4.4
-
 
 
 -------------------------------------------------------------------------------
@@ -79,6 +81,7 @@ https://github.com/dubhater/vapoursynth-bifrost v2.2
 https://github.com/dubhater/vapoursynth-smoothuv v3 
     注意还要下 Source code 里的 RainbowSmooth.py，丢到 site-packages 下
 https://github.com/AmusementClub/vapoursynth-histogram v2.1-AC
+https://github.com/vapoursynth/vs-miscfilters-obsolete R2
 
 
 -------------------------------------------------------------------------------
