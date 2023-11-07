@@ -9,6 +9,11 @@
 本文语意中的 VapourSynth 环境基本上由 Python 的 Windows embeddable package、VapourSynth-Portable、动态链接库插件、Python 脚本插件和一些 Python 包组成。
 
 ## 组建基本的 Python 环境
+到 [VapourSynth 的 GitHub 仓库](https://github.com/vapoursynth/vapoursynth/releases)里下载一个 `VapourSynth64-Portable`，在文档中确定该版本需要的 Python 版本。下载对应版本的 [WinPython](https://winpython.github.io/)。
+
+解压 WinPython 到本地，一般解压出来的文件夹里有一个类似 `python-3.11.5.amd64` 的子文件夹，和 Python Embeddable Package 看起来差不多，我们一般把这个子文件夹当做 Python 的环境根目录。将 VapourSynth64-Portable 解压到根目录里，应该会提示有几个文件重复，直接替换就好。
+<details>
+    <summary>【旧版】组建基本的 Python 环境</summary>
 
 众所周知 VapourSynth 是搭建在 Python 上的，在 [Python 官网](https://www.python.org/downloads/windows/)下载一个 `Windows embeddable package (64-bit)`，注意 VapourSynth 版本对应的 Python 版本，不确定在群里问一问。他应该是一个压缩包，解压到某个文件夹里，比如说 `Python-VapourSynth`，那么这就是环境的主目录了。
 
@@ -39,6 +44,17 @@ set PATH=%PATH%;C:\VapourSynth64-Portable;C:\VapourSynth64-Portable\Scripts;
 ```
 
 如果你把 `VapourSynth64-Portable` 放在了其他地方，对应修改即可。这样每当你新建一个命令行时，在命令行内运行 `path.bat`，即可把这个 Python 环境放入系统环境变量中。
+</details>
+
+为了方便地引入这个环境，你可以在新建命令行所在的文件夹建立一个 `path.bat`，里面写：
+
+```commandline
+set PATH=$环境根目录$;$环境根目录$\Scripts;%PATH%;
+```
+
+上面 `$环境根目录$` 替换成你的机器上环境根目录的地址。这样每当你新建一个命令行时，在命令行内运行 `path.bat`，即可把这个 Python 环境放入系统环境变量中。
+
+此外，WinPython 在与根目录同级的地方放了一堆包装过的控制台（比如 `WinPython Command Prompt.exe`），双击他们，自动会将 Python 环境引入系统环境变量。
 
 ## 塞入各种插件
 
@@ -48,22 +64,5 @@ set PATH=%PATH%;C:\VapourSynth64-Portable;C:\VapourSynth64-Portable\Scripts;
 2. Python 脚本插件：这类插件其实又分为两种。
     1. 第一种是单独一个 `.py` 文件，比如 [havsfunc](https://github.com/HomeOfVapourSynthEvolution/havsfunc)。这种插件只需把仓库中的对应文件保存到本地，然后放在 `Python-VapourSynth\\Lib\\site-packages` 下即可。
     2. 第二种比较复杂，他们以 Python 模块的形式存在，比如 [yvsfunc](https://github.com/YomikoR/yvsfunc)。这种插件需要首先识别出仓库中的哪个文件夹代表了这个模块本体（通常是与模块同名，比如上述例子中就是 `yvsfunc` 文件夹。把整个仓库下载下来，然后把对应文件夹放在 `Python-VapourSynth\\Lib\\site-packages` 下即可。
-3. Python 模块插件：有一些 Python 模块可能直接复制会有一点点问题，这时候我推荐使用模块安装的方法。我已经在 `@plugin.txt` 中提供了模块名，比如要安装 `vsutil`，先在命令行内运行 `path.bat`、引入你想安装到的环境，然后输入 `pip install --no-deps vsutil` 即可安装。
-~~你可以在任意仓库下载源代码、解压到任意路径，该项目根目录下往往会有 `setup.py` 或者 `setup.cfg` 这种文件。先在命令行内运行 `path.bat`、引入你想安装到的环境，然后命令行游历到项目根目录，输入 `pip install .` 就好了。特别注意：有很多这种类型的模块会在安装文件中指定一些依赖包，你可以打开 `setup.cfg` 或者 `setup.py` 找到里面 dependancy 或者 requirement 字样的代码，下面很可能包括了他们的依赖列表（有些是引用同目录下的文件，这时候你要修改对应的文件），你需要把里面的 VapourSynth 删除，其他可以保持不变。因为这个教程安装的 VapourSynth 环境没法被 pip 检测到。~~
-
-## 补充 Python 模块
-
-有一些 Python 模块（独立于 VapourSynth 之外）被一些插件所需要，比如 numpy，它可以用下面的方法安装：首先新建一个命令行，输入：
-
-```commandline
-path.bat
-pip install numpy
-```
-
-又比如需要 matplotlib，在命令行下接着写：
-
-```
-pip install matplotlib
-```
-
-以此类推。
+3. Python 模块插件：有一些 Python 模块可能直接复制会有一点点问题，这时候我推荐使用模块安装的方法。我已经在 `@plugin.txt` 中提供了模块名和对应的安装命令，对着抄即可。
+~~比如要安装 `vsutil`，先在命令行内运行 `path.bat`、引入你想安装到的环境，然后输入 `pip install --no-deps vsutil` 即可安装。你可以在任意仓库下载源代码、解压到任意路径，该项目根目录下往往会有 `setup.py` 或者 `setup.cfg` 这种文件。先在命令行内运行 `path.bat`、引入你想安装到的环境，然后命令行游历到项目根目录，输入 `pip install .` 就好了。特别注意：有很多这种类型的模块会在安装文件中指定一些依赖包，你可以打开 `setup.cfg` 或者 `setup.py` 找到里面 dependancy 或者 requirement 字样的代码，下面很可能包括了他们的依赖列表（有些是引用同目录下的文件，这时候你要修改对应的文件），你需要把里面的 VapourSynth 删除，其他可以保持不变。因为这个教程安装的 VapourSynth 环境没法被 pip 检测到。~~
