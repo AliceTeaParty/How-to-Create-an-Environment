@@ -36,7 +36,7 @@ rksfunc
 -------------------------------------------------------------------------------
 https://github.com/Jaded-Encoding-Thaumaturgy/DualSynth-madVR latest R3
     在 dll 同目录下创建 madVR 子文件夹，放入仓库提到的三个文件。
-    https://www.videohelp.com/software/madVR 0.92.17
+    https://www.videohelp.com/software/madVR beta 181
 https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan latest R5
     记得下载模型文件。
 https://github.com/AmusementClub/KNLMeansCL latest v1.1.1e-AC
