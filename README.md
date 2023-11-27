@@ -1,8 +1,6 @@
 # 前言
 
-仓库里的 @plugins.txt 是我的插件列表，大多数情况下你只需要手动安装最前面的 `Special` 和 `Modules`，剩下的可以直接去 [Release](https://github.com/AliceTeaParty/How-to-Create-an-Environment/releases) 里下载通用合集。
-
-@plugins.txt 中的 `Module` 部分最好按从上到下顺序安装。`Plugin-Level1` 和 `Script-Level1` 需要你 Watch 这些插件的仓库以便及时收到更新推送，他们使用的频率比较大；`Plugin-Level2` 和 `Script-Level2` 则没有必要，大多是一些不太能用到的或者是不太可能更新的插件或脚本。
+在***阅读完下一章***之后，你需要给环境添加各种滤镜脚本和插件。仓库里的 @plugins.txt 是我的插件列表，大多数情况下你只需要手动安装最前面的 `Special` 和 `Modules` 部分，剩下四个板块的可以直接去 [Release](https://github.com/AliceTeaParty/How-to-Create-an-Environment/releases) 里下载最新合集包。***注意***，`Plugin-Levelx` 中的 `.py` 文件需要丢到 site-packages 文件夹里，其他的任何文件、文件夹，保留压缩包中的相对位置，丢到 plugins 文件夹里。安装 `Modules` 部分需要运行对应的的命令，请保证命令行中的 pip 是本环境的（你可以输入 `where pip` 来确认）。
 
 # 创建一个 VapourSynth 环境
 

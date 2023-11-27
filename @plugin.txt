@@ -8,7 +8,7 @@ https://github.com/AmusementClub/vs-mlrt latest
 https://github.com/WolframRhodium/VapourSynth-BM3DCUDA latest
     CPU 版本需要选择对应你 CPU 架构的。
 https://www.rationalqm.us/dgdecnv/binaries/ latest
-    下载后解压，把 DGDecodeNV.dll 和 DGIndexNV.exe 拷贝到 x26x 下。
+    注意看发布日期。下载后解压，把 DGDecodeNV.dll 和 DGIndexNV.exe 拷贝到 x26x 下。
 
 
 -------------------------------------------------------------------------------
@@ -90,13 +90,13 @@ https://github.com/vapoursynth/vs-miscfilters-obsolete R2
 https://github.com/Irrational-Encoding-Wizardry/kagefunc/blob/master/kagefunc.py 96947a1
 https://github.com/HomeOfVapourSynthEvolution/vsTAAmbk/blob/master/vsTAAmbk.py fef19f8
 https://github.com/Irrational-Encoding-Wizardry/fvsfunc/blob/master/fvsfunc.py 076dbde 
-https://github.com/WolframRhodium/muvsfunc/blob/master/muvsfunc.py 0ab81b5
+https://github.com/WolframRhodium/muvsfunc/blob/master/muvsfunc.py 698dae3
 
 
 -------------------------------------------------------------------------------
 --------                         Script-Level2                         --------
 -------------------------------------------------------------------------------
-https://github.com/HomeOfVapourSynthEvolution/havsfunc/blob/7f0a9a7a37b60a05b9f408024d203e511e544a61/havsfunc.py
+https://gist.github.com/RyougiKukoc/ea451bd51d0dc33ba5e0c4d5566653cf
 https://gist.github.com/4re/342624c9e1a144a696c6
 https://github.com/HomeOfVapourSynthEvolution/nnedi3_resample/blob/master/nnedi3_resample.py 314c644 
 https://github.com/fdar0536/VapourSynth-Contra-Sharpen-mod/blob/master/CSMOD.py b9ff725
