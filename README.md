@@ -7,52 +7,12 @@
 本文语意中的 VapourSynth 环境基本上由 Python 的 Windows embeddable package、VapourSynth-Portable、动态链接库插件、Python 脚本插件和一些 Python 包组成。
 
 ## 组建基本的 Python 环境
-到 [VapourSynth 的 GitHub 仓库](https://github.com/vapoursynth/vapoursynth/releases)里下载一个 `VapourSynth64-Portable`，在文档中确定该版本需要的 Python 版本。下载对应版本的 [WinPython](https://winpython.github.io/)。
+1. 到 [VapourSynth 的 GitHub 仓库](https://github.com/vapoursynth/vapoursynth/releases)里下载一个 `VapourSynth64-Portable`，在 [文档](http://vapoursynth.com/doc/installation.html#windows-installation-portable) 中确定该版本需要的 Python 版本（如果有多版本兼容，选大于等于 3.10 的版本）。下载对应版本的 [WinPython](https://winpython.github.io/)。
+2. 解压 WinPython 到本地，一般解压出来的文件夹外层叫 `WPy64-版本号`，该文件夹下有一个类似 `python-版本号.amd64` 的子文件夹，和 Python Embeddable Package 看起来差不多，我们一般把这个子文件夹当做 Python 的环境根目录。***在进行接下来的一切操作之前（因为如果之后再重命名会有概率触发问题）***，出于管理环境考虑，你可以在此时任意重命名外层文件夹，比如我比较喜欢把它重命名成 `WPy64-版本号+Vapoursynth版本号`。
+3. 将 VapourSynth64-Portable 解压到 ***根目录（注意，不是外层文件夹）*** 里，应该会提示有几个文件重复，直接替换就好。
+4. 从 VapourSynth-R66 开始，Portable 安装附带一个 wheel 子文件夹，需要手动安装里面的 `.whl` 文件，这样的好处是可以告诉 pip 你有一个 VapourSynth，这给安装很多脚本提供了巨大的方便。具体操作是在根目录下打开命令行，运行 `python -m pip install .\\wheel\\xxx.whl`，其中 `xxx.whl` 选择对应你 Python 版本的那个。
 
-解压 WinPython 到本地，一般解压出来的文件夹里有一个类似 `python-3.11.5.amd64` 的子文件夹，和 Python Embeddable Package 看起来差不多，我们一般把这个子文件夹当做 Python 的环境根目录。将 VapourSynth64-Portable 解压到根目录里，应该会提示有几个文件重复，直接替换就好。
-<details>
-    <summary>【旧版】组建基本的 Python 环境</summary>
-
-众所周知 VapourSynth 是搭建在 Python 上的，在 [Python 官网](https://www.python.org/downloads/windows/)下载一个 `Windows embeddable package (64-bit)`，注意 VapourSynth 版本对应的 Python 版本，不确定在群里问一问。他应该是一个压缩包，解压到某个文件夹里，比如说 `Python-VapourSynth`，那么这就是环境的主目录了。
-
-接下来需要到 [VapourSynth 的 GitHub 仓库](https://github.com/vapoursynth/vapoursynth/releases)里下载一个 `VapourSynth64-Portable`，直接解压到主目录 `Python-VapourSynth` 文件夹下，应该会提示有几个文件重复，直接替换就好。
-
-这一部分的内容在 [VapourSynth 官方文档](http://vapoursynth.com/doc/installation.html#windows-installation-portable)里有提及，可以参考看看。
-
-然后，找到 `VapourSynth64-Portable` 下一个后缀为 `._pth` 的文件，他的文件名应该正好是你的 Python 版本号，把这个文件删除或重命名为后缀不是 `._pth` 的文件。
-
-最后我们需要给这个环境安装 pip，在[这个链接](https://bootstrap.pypa.io/get-pip.py)里保存 `get-pip.py`，或者使用命令行：
-
-```
-curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
-```
-
-把 `get-pip.py` 放在 `VapourSynth64-Portable` 文件夹下，在该文件夹打开命令行或新建命令行游历到此，运行：
-
-```
-python get-pip.py
-```
-
-如果没有 Error 发生（有几个 Warning 是正常的），pip 就被成功地安装了。
-
-为了方便地引入这个环境，你可以在新建命令行所在的文件夹建立一个 `path.bat`，假设 `VapourSynth64-Portable` 在 `C:\` 下，里面写：
-
-```commandline
-set PATH=%PATH%;C:\VapourSynth64-Portable;C:\VapourSynth64-Portable\Scripts;
-```
-
-如果你把 `VapourSynth64-Portable` 放在了其他地方，对应修改即可。这样每当你新建一个命令行时，在命令行内运行 `path.bat`，即可把这个 Python 环境放入系统环境变量中。
-</details>
-
-为了方便地引入这个环境，你可以在新建命令行所在的文件夹建立一个 `path.bat`，里面写：
-
-```commandline
-set PATH=$环境根目录$;$环境根目录$\Scripts;%PATH%;
-```
-
-上面 `$环境根目录$` 替换成你的机器上环境根目录的地址。这样每当你新建一个命令行时，在命令行内运行 `path.bat`，即可把这个 Python 环境放入系统环境变量中。
-
-此外，WinPython 在与根目录同级的地方放了一堆包装过的控制台（比如 `WinPython Command Prompt.exe`），双击他们，自动会将 Python 环境引入系统环境变量。
+WinPython 在与根目录同级的地方放了一堆包装过的控制台（比如 `WinPython Command Prompt.exe`），双击他们，自动会将 Python 环境引入系统环境变量。
 
 ## 塞入各种插件
 
