@@ -8,7 +8,7 @@ https://github.com/AmusementClub/vs-mlrt latest
 https://github.com/WolframRhodium/VapourSynth-BM3DCUDA latest
     CPU 版本需要选择对应你 CPU 架构的。一般只下显卡版的，如果你用的是英伟达显卡，下载 cudartc 就够了。
 https://www.rationalqm.us/dgdecnv/binaries/ latest
-    注意看发布日期。下载最新版后解压，把 DGDecodeNV(_AVX2).dll 扔到 vs-plugins 里，其余内容保存到你喜欢的目录，添加到系统 Path 中（在任意位置打开控制台能访问 DGIndexNV.exe 即可）。
+    注意看发布日期。下载最新版后解压，把 DGDecodeNV.dll 扔到 vs-plugins 里，其余内容保存到你喜欢的目录，添加到系统 Path 中（在任意位置打开控制台能访问 DGIndexNV.exe 即可）。
 https://github.com/Jaded-Encoding-Thaumaturgy/DualSynth-madVR latest R3
     在 dll 同目录下创建 madVR 子文件夹，放入仓库提到的三个文件。
     https://www.videohelp.com/software/madVR Test Build xxx
