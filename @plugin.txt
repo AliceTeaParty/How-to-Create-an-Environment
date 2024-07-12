@@ -21,11 +21,9 @@ mvsfunc
     pip install git+https://github.com/HomeOfVapourSynthEvolution/mvsfunc
 getnative 
     pip install getnative
-vsutil
-    pip install vsutil
 awsmfunc
-    pip install vs-rekt awsmfunc
-vsdehalo
+    pip install awsmfunc
+vsdehalo vsutil 
     pip install vsdehalo
 yvsfunc
     yvsfunc 不能使用 pip 安装，安装方法参考 README
