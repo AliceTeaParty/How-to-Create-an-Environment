@@ -9,9 +9,9 @@ https://github.com/WolframRhodium/VapourSynth-BM3DCUDA latest
     CPU 版本需要选择对应你 CPU 架构的。一般只下显卡版的，如果你用的是英伟达显卡，下载 cudartc 就够了。
 https://www.rationalqm.us/dgdecnv/binaries/ latest
     注意看发布日期。下载最新版后解压，把 DGDecodeNV.dll 扔到 vs-plugins 里，其余内容保存到你喜欢的目录，添加到系统 Path 中（在任意位置打开控制台能访问 DGIndexNV.exe 即可）。
-https://github.com/Jaded-Encoding-Thaumaturgy/DualSynth-madVR latest R3
-    在 dll 同目录下创建 madVR 子文件夹，放入仓库提到的三个文件。
-    https://www.videohelp.com/software/madVR Test Build xxx
+https://github.com/Jaded-Encoding-Thaumaturgy/DualSynth-madVR latest R4
+    在 dll 同目录下创建 madVR 子文件夹，放入仓库提到的三个文件 madVR64.ax、madHcNet64.dll 和 mvrSettings64.dll。
+    https://www.videohelp.com/software/madVR 注意要下载 Test Build xxx 而非 0.92.17
 
 
 -------------------------------------------------------------------------------
@@ -42,8 +42,8 @@ https://github.com/AkarinVS/L-SMASH-Works latest vA.3k
     这个仓库基本停止活跃了，更活跃的维护者在
         https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works
     但是该仓库编译的插件在当下仍有很多待观察的问题，也许将来等他稳定后会被我采纳
-https://github.com/vapoursynth/bestsource latest R4
-https://github.com/Irrational-Encoding-Wizardry/descale 
+https://github.com/vapoursynth/bestsource latest R5
+https://github.com/Irrational-Encoding-Wizardry/descale latest r8 
     descale.py 丢到根目录下
 https://github.com/EleonoreMizo/fmtconv latest r30
     项目已迁移到 https://gitlab.com/EleonoreMizo/fmtconv/
@@ -73,8 +73,7 @@ https://github.com/dubhater/vapoursynth-tivtc v2
 https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain r10 
 https://github.com/Irrational-Encoding-Wizardry/adaptivegrain 0.3.1 
     下载 no-fma 版本
-https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3 r4
-    不要下 non-OpenCL
+https://github.com/AmusementClub/VapourSynth-EEDI3 r4.AC3
 https://github.com/sekrit-twc/znedi3 r2.1 
     nnedi3_weights.bin 有一个就够了
 https://github.com/HomeOfVapourSynthEvolution/VapourSynth-NNEDI3CL r8 
@@ -84,7 +83,7 @@ https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Retinex r4
 https://github.com/dubhater/vapoursynth-fillborders v2 
 https://github.com/sekrit-twc/EdgeFixer r2 
 https://github.com/dubhater/vapoursynth-tcomb v4 
-https://github.com/dubhater/vapoursynth-bifrost v2.2 
+https://github.com/dubhater/vapoursynth-bifrost v3.0 
 https://github.com/dubhater/vapoursynth-smoothuv v3 
     注意还要下 Source code 里的 RainbowSmooth.py，丢到根目录下
 https://github.com/AmusementClub/vapoursynth-histogram v2.1-AC
@@ -97,7 +96,7 @@ https://github.com/vapoursynth/vs-miscfilters-obsolete R2
 https://github.com/Irrational-Encoding-Wizardry/kagefunc/blob/master/kagefunc.py 96947a1
 https://github.com/HomeOfVapourSynthEvolution/vsTAAmbk/blob/master/vsTAAmbk.py fef19f8
 https://github.com/Irrational-Encoding-Wizardry/fvsfunc/blob/master/fvsfunc.py 076dbde 
-https://github.com/WolframRhodium/muvsfunc/blob/master/muvsfunc.py 713f207
+https://github.com/WolframRhodium/muvsfunc/blob/master/muvsfunc.py 3ee08a0
 https://github.com/YomikoR/GetFnative/blob/main/getfnative.py 9edcd58
 
 
