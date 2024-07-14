@@ -40,7 +40,7 @@ https://github.com/AkarinVS/L-SMASH-Works latest vA.3k
     这个仓库基本停止活跃了，更活跃的维护者在
         https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works
     但是该仓库编译的插件在当下仍有很多待观察的问题，也许将来等他稳定后会被我采纳
-https://github.com/vapoursynth/bestsource latest R5
+https://github.com/vapoursynth/bestsource latest R6
 https://github.com/Irrational-Encoding-Wizardry/descale latest r8 
     descale.py 丢到根目录下
 https://github.com/EleonoreMizo/fmtconv latest r30
