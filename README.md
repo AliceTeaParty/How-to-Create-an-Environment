@@ -23,6 +23,7 @@ WinPython 在与根目录同级的地方放了一堆包装过的控制台（比�
 2. Python 脚本插件：这类插件其实又分为两种。
     1. 第一种是单独一个 `.py` 文件，比如 [fvsfunc](https://github.com/Irrational-Encoding-Wizardry/fvsfunc/blob/master/fvsfunc.py)。这种插件只需把仓库中的对应文件保存到本地，然后放在根目录下（或 `根目录\\Lib\\site-packages` 下）即可。
     2. 第二种比较复杂，他们以 Python 模块的形式存在，比如 [yvsfunc](https://github.com/YomikoR/yvsfunc)。这种插件需要首先识别出仓库中的哪个文件夹代表了这个模块本体（通常是与模块同名，且该文件夹下直接存在 `__init__.py`，比如上述例子中就是 `yvsfunc` 文件夹。把整个仓库下载下来，然后把对应文件夹放在根目录下（或 `根目录\\Lib\\site-packages` 下）即可。
+    3. 最后一种最为简单，可以直接 `pip install xxx` 安装
 3. ~~Python 模块插件：有一些 Python 模块可能直接复制会有一点点问题，这时候我推荐使用模块安装的方法。我已经在 `@plugin.txt` 中提供了模块名和对应的安装命令，对着抄即可。比如要安装 `vsutil`，先在命令行内运行 `path.bat`、引入你想安装到的环境，然后输入 `pip install --no-deps vsutil` 即可安装。你可以在任意仓库下载源代码、解压到任意路径，该项目根目录下往往会有 `setup.py` 或者 `setup.cfg` 这种文件。先在命令行内运行 `path.bat`、引入你想安装到的环境，然后命令行游历到项目根目录，输入 `pip install .` 就好了。特别注意：有很多这种类型的模块会在安装文件中指定一些依赖包，你可以打开 `setup.cfg` 或者 `setup.py` 找到里面 dependancy 或者 requirement 字样的代码，下面很可能包括了他们的依赖列表（有些是引用同目录下的文件，这时候你要修改对应的文件），你需要把里面的 VapourSynth 删除，其他可以保持不变。因为这个教程安装的 VapourSynth 环境没法被 pip 检测到。~~
 
 ## 2.3 VS Code 配置
