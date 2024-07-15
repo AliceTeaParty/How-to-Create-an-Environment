@@ -26,9 +26,9 @@ awsmfunc
 vsdehalo vsutil 
     pip install vsdehalo
 yvsfunc
-    yvsfunc 不能使用 pip 安装，安装方法参考 README
+    yvsfunc 不能使用 pip 安装，安装方法参考 README 2.2.2.ii
 rksfunc
-    rksfunc 不能使用 pip 安装，安装方法参考 README
+    rksfunc 不能使用 pip 安装，安装方法参考 README 2.2.2.ii
 
 
 -------------------------------------------------------------------------------
