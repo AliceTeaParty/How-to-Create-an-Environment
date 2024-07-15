@@ -2,9 +2,9 @@
 --------                            Special                            --------
 -------------------------------------------------------------------------------
 https://github.com/AmusementClub/vs-dfttest2 latest
-    这个插件的装法：把 dfttest2.py 丢到根目录下，cufft-windows 压缩包里面有一个 vsmlrt-cuda 文件夹，把该文件夹扔到 plugins 里（不能把里面的 dll 直接丢到 plugins 里），vs-dfttest2-cuda-windows 压缩包里面的 dll 则直接扔到 vs-plugins 里。
+    这个插件的装法：把 dfttest2.py 丢到根目录或 site-packages 下，cufft-windows 压缩包里面有一个 vsmlrt-cuda 文件夹，把该文件夹扔到 plugins 里（不能把里面的 dll 直接丢到 plugins 里），vs-dfttest2-cuda-windows 压缩包里面的 dll 则直接扔到 vs-plugins 里。
 https://github.com/AmusementClub/vs-mlrt latest
-    只需下载 vsmlrt-windows-x64-cuda.v*.7z 即可，压缩包里的 vsmlrt.py 丢到根目录下，其余的文件夹和 dll 原封不动丢到 vs-plugins 下即可。
+    只需下载 vsmlrt-windows-x64-cuda.v*.7z 即可，压缩包里的 vsmlrt.py 丢到根目录或 site-packages 下，其余的文件夹和 dll 原封不动丢到 vs-plugins 下即可。
 https://github.com/WolframRhodium/VapourSynth-BM3DCUDA latest
     CPU 版本需要选择对应你 CPU 架构的。一般只下显卡版的，如果你用的是英伟达显卡，下载 cudartc 就够了。
 https://www.rationalqm.us/dgdecnv/binaries/ latest
