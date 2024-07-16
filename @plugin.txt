@@ -70,7 +70,6 @@ https://github.com/vapoursynth/vivtc R1
 https://github.com/dubhater/vapoursynth-tivtc v2 
 https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain r10 
 https://github.com/Irrational-Encoding-Wizardry/adaptivegrain 0.3.1 
-    下载 no-fma 版本
 https://github.com/AmusementClub/VapourSynth-EEDI3 r4.AC3
 https://github.com/sekrit-twc/znedi3 r2.1 
     nnedi3_weights.bin 有一个就够了
