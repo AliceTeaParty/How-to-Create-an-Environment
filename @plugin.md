@@ -16,11 +16,6 @@
 
     *   注意看发布日期。下载最新版后解压，把 DGDecodeNV.dll 扔到 vs-plugins 里，其余内容保存到你喜欢的目录，添加到系统 Path 中（在任意位置打开控制台能访问 DGIndexNV.exe 即可）。
 
--   [DualSynth-madVR](https://github.com/Jaded-Encoding-Thaumaturgy/DualSynth-madVR)
-
-    *   在 dll 同目录下创建 madVR 子文件夹，放入仓库提到的三个文件 madVR64.ax、madHcNet64.dll 和 mvrSettings64.dll。
-    *   [madVR](https://www.videohelp.com/software/madVR) 注意要下载 Test Build xxx 而非 0.92.17
-
 # Modules
 
 -   mvsfunc 
@@ -54,18 +49,19 @@
 # Plugin-Level1
 
 -   [tcanny](https://github.com/AmusementClub/VapourSynth-TCanny) `latest (r14.AC4)`
--   [lsmas](https://github.com/AkarinVS/L-SMASH-Works) `latest (vA.3k)`
-    *   下载 src 版本
-    *   这个仓库基本停止活跃了，更活跃的维护者在 [HOAPE](https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works)
-    *   但是该仓库编译的插件在当下仍有很多待观察的问题，也许将来等他稳定后会被我采纳
+-   [lsmas](https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works) `latest (20240408 1194.0.0.0)`
+    *   如果出现问题，回退到 [akarin](https://github.com/AkarinVS/L-SMASH-Works) `vA.3k`
 -   [bestsource](https://github.com/vapoursynth/bestsource) `latest (R6)`
 -   [descale](https://github.com/Irrational-Encoding-Wizardry/descale) `latest (r8)`
     *   descale.py 丢到根目录下
 -   [fmtc](https://github.com/EleonoreMizo/fmtconv) `latest (r30)`
     *   项目已迁移到 [gitlab](https://gitlab.com/EleonoreMizo/fmtconv/) 但暂无 Release
 -   [akarin](https://github.com/AkarinVS/vapoursynth-plugin) `latest (v0.96g3)`
--   [placebo](https://github.com/Lypheo/vs-placebo) `latest (v1.4.4)`
+-   [placebo](https://github.com/AmusementClub/vs-placebo) `latest (v1.4.4-mod)`
 -   [subtext](https://github.com/vapoursynth/subtext) `latest (R5)`
+-   [DualSynth-madVR](https://github.com/Jaded-Encoding-Thaumaturgy/DualSynth-madVR) `R4 | madVR Test Build 206`
+    *   在 dll 同目录下创建 madVR 子文件夹，放入仓库提到的三个文件 madVR64.ax、madHcNet64.dll 和 mvrSettings64.dll。
+    *   [madVR](https://www.videohelp.com/software/madVR) 注意要下载 Test Build xxx 而非 0.92.17
 
 # Plugin-Level2
 
@@ -79,8 +75,7 @@
 -   [f3kdb](https://github.com/AmusementClub/flash3kyuu_deband) `2.0.1-AC`
 -   [neo_f3kdb](https://github.com/HomeOfAviSynthPlusEvolution/neo_f3kdb) `r9`
 -   [rgvs](https://github.com/vapoursynth/vs-removegrain) `R1`
--   [mvtools](https://github.com/Mr-Z-2697/vapoursynth-mvtools) `v23+`
--   *   vapoursynth-mvtools-clang17.0.6build-static.mingw.fftw
+-   [mvtools](https://github.com/Mr-Z-2697/vapoursynth-mvtools) `v23+16`
 -   [dfttest](https://github.com/AmusementClub/VapourSynth-DFTTest) `r7.AC`
 -   [vivtc](https://github.com/vapoursynth/vivtc) `R1`
 -   [tivtc](https://github.com/dubhater/vapoursynth-tivtc) `v2`
