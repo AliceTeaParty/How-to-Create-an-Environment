@@ -51,7 +51,7 @@
 -   [tcanny](https://github.com/AmusementClub/VapourSynth-TCanny) `latest (r14.AC4)`
 -   [lsmas](https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works) `latest (20240408 1194.0.0.0)`
     *   如果出现问题，回退到 [akarin](https://github.com/AkarinVS/L-SMASH-Works) `vA.3k`
--   [bestsource](https://github.com/vapoursynth/bestsource) `latest (R6)`
+-   [bestsource](https://github.com/vapoursynth/bestsource) `latest (R10)`
 -   [descale](https://github.com/Irrational-Encoding-Wizardry/descale) `latest (r8)`
     *   descale.py 丢到根目录下
 -   [fmtc](https://github.com/EleonoreMizo/fmtconv) `latest (r30)`
@@ -59,9 +59,7 @@
 -   [akarin](https://github.com/AkarinVS/vapoursynth-plugin) `latest (v0.96g3)`
 -   [placebo](https://github.com/AmusementClub/vs-placebo) `latest (v1.4.4-mod)`
 -   [subtext](https://github.com/vapoursynth/subtext) `latest (R5)`
--   [DualSynth-madVR](https://github.com/Jaded-Encoding-Thaumaturgy/DualSynth-madVR) `R4 | madVR Test Build 206`
-    *   在 dll 同目录下创建 madVR 子文件夹，放入仓库提到的三个文件 madVR64.ax、madHcNet64.dll 和 mvrSettings64.dll。
-    *   [madVR](https://www.videohelp.com/software/madVR) 注意要下载 Test Build xxx 而非 0.92.17
+-   [vapoursynth-zip](https://github.com/dnjulek/vapoursynth-zip) `latest (R5)`
 
 # Plugin-Level2
 
@@ -83,7 +81,7 @@
 -   [adaptivegrain](https://github.com/Irrational-Encoding-Wizardry/adaptivegrain) `0.3.1`
 -   [eedi3](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3) `r4`
 -   [znedi3](https://github.com/sekrit-twc/znedi3) `r2.1`
--   *   nnedi3_weights.bin 有一个就够了
+    *   nnedi3_weights.bin 有一个就够了
 -   [nnedi3cl](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-NNEDI3CL) `r8`
 -   [sangnom](https://github.com/dubhater/vapoursynth-sangnom) `r42`
 -   [awarpsharp2](https://github.com/dubhater/vapoursynth-awarpsharp2) `v4`
@@ -96,14 +94,17 @@
 -   *   注意还要下 Source code 里的 [RainbowSmooth.py](https://github.com/dubhater/vapoursynth-smoothuv/blob/master/RainbowSmooth.py) 丢到根目录下
 -   [hist](https://github.com/AmusementClub/vapoursynth-histogram) `v2.1-AC`
 -   [misc](https://github.com/vapoursynth/vs-miscfilters-obsolete) `R2`
-
+-   [DualSynth-madVR](https://github.com/Jaded-Encoding-Thaumaturgy/DualSynth-madVR) `R4 | madVR Test Build 206`
+    *   在 dll 同目录下创建 madVR 子文件夹，放入仓库提到的三个文件 madVR64.ax、madHcNet64.dll 和 mvrSettings64.dll。
+    *   [madVR](https://www.videohelp.com/software/madVR) 注意要下载 Test Build xxx 而非 0.92.17
+-   [vs-nlq](https://github.com/RyougiKukoc/vs-nlq) `x86_64-pc-windows-msvc`
 
 # Script-Level1
 
 -   [kagefunc](https://github.com/Irrational-Encoding-Wizardry/kagefunc/blob/master/kagefunc.py) `96947a1`
 -   [TAAmbk](https://github.com/HomeOfVapourSynthEvolution/vsTAAmbk/blob/master/vsTAAmbk.py) `fef19f8`
 -   [fvsfunc](https://github.com/Irrational-Encoding-Wizardry/fvsfunc/blob/master/fvsfunc.py) `076dbde `
--   [muvsfunc](https://github.com/WolframRhodium/muvsfunc/blob/master/muvsfunc.py) `3ee08a0`
+-   [muvsfunc](https://github.com/WolframRhodium/muvsfunc/blob/master/muvsfunc.py) `5b4f6a1`
 -   [getfnative](https://github.com/YomikoR/GetFnative/blob/main/getfnative.py) `9edcd58`
 
 # Script-Level2
