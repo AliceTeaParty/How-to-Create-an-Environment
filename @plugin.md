@@ -1,12 +1,8 @@
 # Special
 
--   [dfttest2](https://github.com/AmusementClub/vs-dfttest2)
-
-    *   把 dfttest2.py 丢到根目录或 site-packages 下，cufft-windows 压缩包里面有一个 vsmlrt-cuda 文件夹，把该文件夹扔到 plugins 里（不能把里面的 dll 直接丢到 plugins 里），vs-dfttest2-cuda-windows 压缩包里面的 dll 则直接扔到 vs-plugins 里。
-
 -   [vs-mlrt](https://github.com/AmusementClub/vs-mlrt)
     
-    *   只需下载 vsmlrt-windows-x64-cuda.v*.7z 即可，压缩包里的 vsmlrt.py 丢到根目录或 site-packages 下，其余的文件夹和 dll 原封不动丢到 vs-plugins 下即可。
+    *   下载 vsmlrt-windows-x64-cuda.v*.7z 和 contrib-models.v*.7z，压缩包里的 vsmlrt.py 丢到根目录或 site-packages 下，其余的文件夹和 dll 原封不动丢到 vs-plugins 下即可。
 
 -   [BM3DCUDA](https://github.com/WolframRhodium/VapourSynth-BM3DCUDA)
     
@@ -39,7 +35,7 @@
 -   vsdehalo vsutil 
     
     ```
-    pip install vsdehalo
+    pip install vsjetpack
     ```
 
 -   yvsfunc, rksfunc
@@ -49,9 +45,8 @@
 # Plugin-Level1
 
 -   [tcanny](https://github.com/AmusementClub/VapourSynth-TCanny) `latest (r14.AC4)`
--   [lsmas](https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works) `latest (20240408 1194.0.0.0)`
-    *   如果出现问题，回退到 [akarin](https://github.com/AkarinVS/L-SMASH-Works) `vA.3k`
--   [bestsource](https://github.com/vapoursynth/bestsource) `latest (R10)`
+-   [lsmas](https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works) `latest (20250505 1253.0.0.0)`
+-   [bestsource](https://github.com/vapoursynth/bestsource) `latest (R11)`
 -   [descale](https://github.com/Irrational-Encoding-Wizardry/descale) `latest (r8)`
     *   descale.py 丢到根目录下
 -   [fmtc](https://github.com/EleonoreMizo/fmtconv) `latest (r30)`
@@ -60,6 +55,14 @@
 -   [placebo](https://github.com/AmusementClub/vs-placebo) `latest (v1.4.4-mod)`
 -   [subtext](https://github.com/vapoursynth/subtext) `latest (R5)`
 -   [vapoursynth-zip](https://github.com/dnjulek/vapoursynth-zip) `latest (R5)`
+-   [zsmooth](https://github.com/adworacz/zsmooth) `latest (0.8)`
+-   [vs-noise](https://github.com/wwww-wwww/vs-noise) `latest (r4)`
+-   [resize2](https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-resize2) `latest (0.3.2)`
+-   [SNEEDIF](https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-SNEEDIF) `latest (R2)`
+-   [mvmanip](https://github.com/Mikewando/manipulate-motion-vectors) `latest (1.2.0)`
+-   [hysteresis](https://github.com/sgt0/vapoursynth-hysteresis) `latest (v1.0.5)`
+-   [dfttest2](https://github.com/AmusementClub/vs-dfttest2)
+    *   把 dfttest2.py 丢到根目录或 site-packages 下，cufft-windows 压缩包里面有一个 vsmlrt-cuda 文件夹，把该文件夹扔到 plugins 里（不能把里面的 dll 直接丢到 plugins 里），vs-dfttest2-cuda-windows 压缩包里面的 dll 则直接扔到 vs-plugins 里。
 
 # Plugin-Level2
 
@@ -98,6 +101,7 @@
     *   在 dll 同目录下创建 madVR 子文件夹，放入仓库提到的三个文件 madVR64.ax、madHcNet64.dll 和 mvrSettings64.dll。
     *   [madVR](https://www.videohelp.com/software/madVR) 注意要下载 Test Build xxx 而非 0.92.17
 -   [vs-nlq](https://github.com/RyougiKukoc/vs-nlq) `x86_64-pc-windows-msvc`
+-   [tedgemask](https://github.com/dubhater/vapoursynth-tedgemask) `v1`
 
 # Script-Level1
 
