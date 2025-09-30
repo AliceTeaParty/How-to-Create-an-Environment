@@ -45,8 +45,8 @@
 # Plugin-Level1
 
 -   [tcanny](https://github.com/AmusementClub/VapourSynth-TCanny) `latest (r14.AC4)`
--   [lsmas](https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works) `latest (20250505 1253.0.0.0)`
--   [bestsource](https://github.com/vapoursynth/bestsource) `latest (R11)`
+-   [lsmas](https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works) `latest (20250706 1266.0.0.0)`
+-   [bestsource](https://github.com/vapoursynth/bestsource) `latest (R13)`
 -   [descale](https://github.com/Irrational-Encoding-Wizardry/descale) `latest (r8)`
     *   descale.py 丢到根目录下
 -   [fmtc](https://github.com/EleonoreMizo/fmtconv) `latest (r30)`
@@ -54,13 +54,13 @@
 -   [akarin](https://github.com/AkarinVS/vapoursynth-plugin) `latest (v0.96g3)`
 -   [placebo](https://github.com/AmusementClub/vs-placebo) `latest (v1.4.4-mod)`
 -   [subtext](https://github.com/vapoursynth/subtext) `latest (R5)`
--   [vapoursynth-zip](https://github.com/dnjulek/vapoursynth-zip) `latest (R5)`
--   [zsmooth](https://github.com/adworacz/zsmooth) `latest (0.8)`
+-   [vapoursynth-zip](https://github.com/dnjulek/vapoursynth-zip) `latest (R10)`
+-   [zsmooth](https://github.com/adworacz/zsmooth) `latest (0.12)`
 -   [vs-noise](https://github.com/wwww-wwww/vs-noise) `latest (r4)`
--   [resize2](https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-resize2) `latest (0.3.2)`
--   [SNEEDIF](https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-SNEEDIF) `latest (R2)`
--   [mvmanip](https://github.com/Mikewando/manipulate-motion-vectors) `latest (1.2.0)`
--   [hysteresis](https://github.com/sgt0/vapoursynth-hysteresis) `latest (v1.0.5)`
+-   [resize2](https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-resize2) `latest (0.3.3)`
+-   [SNEEDIF](https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-SNEEDIF) `latest (R3)`
+-   [mvmanip](https://github.com/Mikewando/manipulate-motion-vectors) `latest (1.2.1)`
+-   [hysteresis](https://github.com/sgt0/vapoursynth-hysteresis) `latest (v1.0.6)`
 -   [dfttest2](https://github.com/AmusementClub/vs-dfttest2)
     *   把 dfttest2.py 丢到根目录或 site-packages 下，cufft-windows 压缩包里面有一个 vsmlrt-cuda 文件夹，把该文件夹扔到 plugins 里（不能把里面的 dll 直接丢到 plugins 里），vs-dfttest2-cuda-windows 压缩包里面的 dll 则直接扔到 vs-plugins 里。
 
@@ -68,13 +68,13 @@
 
 -   [knlm](https://github.com/AmusementClub/KNLMeansCL) `v1.1.1e-AC`
 -   [nlm_ispc](https://github.com/AmusementClub/vs-nlm-ispc) `v2`
--   [nlm_cuda](https://github.com/AmusementClub/vs-nlm-cuda) `v1`
+-   [nlm_cuda](https://github.com/AmusementClub/vs-nlm-cuda) `v2`
 -   [w2xnvk](https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan) `R5`
     *   记得下载模型文件。
 -   [bilateral](https://github.com/AmusementClub/VapourSynth-Bilateral) `r3.AC`
 -   [imwri](https://github.com/AmusementClub/vs-imwri) `vA.R2`
 -   [f3kdb](https://github.com/AmusementClub/flash3kyuu_deband) `2.0.1-AC`
--   [neo_f3kdb](https://github.com/HomeOfAviSynthPlusEvolution/neo_f3kdb) `r9`
+-   [neo_f3kdb](https://github.com/HomeOfAviSynthPlusEvolution/neo_f3kdb) `r10`
 -   [rgvs](https://github.com/vapoursynth/vs-removegrain) `R1`
 -   [mvtools](https://github.com/Mr-Z-2697/vapoursynth-mvtools) `v23+16`
 -   [dfttest](https://github.com/AmusementClub/VapourSynth-DFTTest) `r7.AC`
@@ -82,7 +82,7 @@
 -   [tivtc](https://github.com/dubhater/vapoursynth-tivtc) `v2`
 -   [addgrain](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain) `r10`
 -   [adaptivegrain](https://github.com/Irrational-Encoding-Wizardry/adaptivegrain) `0.3.1`
--   [eedi3](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3) `r4`
+-   [eedi3](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3) `r7`
 -   [znedi3](https://github.com/sekrit-twc/znedi3) `r2.1`
     *   nnedi3_weights.bin 有一个就够了
 -   [nnedi3cl](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-NNEDI3CL) `r8`
@@ -109,7 +109,7 @@
 -   [kagefunc](https://github.com/Irrational-Encoding-Wizardry/kagefunc/blob/master/kagefunc.py) `96947a1`
 -   [TAAmbk](https://github.com/HomeOfVapourSynthEvolution/vsTAAmbk/blob/master/vsTAAmbk.py) `fef19f8`
 -   [fvsfunc](https://github.com/Irrational-Encoding-Wizardry/fvsfunc/blob/master/fvsfunc.py) `076dbde `
--   [muvsfunc](https://github.com/WolframRhodium/muvsfunc/blob/master/muvsfunc.py) `5b4f6a1`
+-   [muvsfunc](https://github.com/WolframRhodium/muvsfunc/blob/master/muvsfunc.py) `a9c5cbe`
 -   [getfnative](https://github.com/YomikoR/GetFnative/blob/main/getfnative.py) `9edcd58`
 
 # Script-Level2
