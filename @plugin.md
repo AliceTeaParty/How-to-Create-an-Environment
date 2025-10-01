@@ -103,6 +103,8 @@
 -   [vs-nlq](https://github.com/RyougiKukoc/vs-nlq) `x86_64-pc-windows-msvc`
 -   [tedgemask](https://github.com/dubhater/vapoursynth-tedgemask) `v1`
 -   [ctmf](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF) `r5`
+-   [dctf](https://github.com/Mr-Z-2697/VapourSynth-DCTFilter) `y33`
+-   [deblock](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Deblock) `r6`
 
 # Script-Level1
 
