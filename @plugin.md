@@ -1,74 +1,52 @@
 # Special
 
 -   [vs-mlrt](https://github.com/AmusementClub/vs-mlrt)
-    
     *   下载 vsmlrt-windows-x64-cuda.v*.7z 和 contrib-models.v*.7z，压缩包里的 vsmlrt.py 丢到根目录或 site-packages 下，其余的文件夹和 dll 原封不动丢到 vs-plugins 下即可。
-
+-   [dfttest2](https://github.com/AmusementClub/vs-dfttest2)
+    *   把 dfttest2.py 丢到根目录或 site-packages 下，cufft-windows 压缩包里面有一个 vsmlrt-cuda 文件夹，把该文件夹扔到 plugins 里（不能把里面的 dll 直接丢到 plugins 里），vs-dfttest2-cuda-windows 压缩包里面的 dll 则直接扔到 vs-plugins 里。
 -   [BM3DCUDA](https://github.com/WolframRhodium/VapourSynth-BM3DCUDA)
-    
+-   [bilateralgpu](https://github.com/WolframRhodium/VapourSynth-BilateralGPU)
     *   CPU 版本需要选择对应你 CPU 架构的。一般只下显卡版的，如果你用的是英伟达显卡，下载 cudartc 就够了。
-
 -   [dgdecnv](https://www.rationalqm.us/dgdecnv/binaries/)
-
     *   注意看发布日期。下载最新版后解压，把 DGDecodeNV.dll 扔到 vs-plugins 里，其余内容保存到你喜欢的目录，添加到系统 Path 中（在任意位置打开控制台能访问 DGIndexNV.exe 即可）。
 
 # Modules
 
--   mvsfunc 
-    
-    ```
-    pip install git+https://github.com/HomeOfVapourSynthEvolution/mvsfunc
-    ```
+确保你的系统里有 git 并加入了系统 PATH（或者能在运行以下命令的终端里被找到）
 
--   getnative 
-
-    ```
-    pip install getnative
-    ```
-
--   awsmfunc
-
-    ```
-    pip install awsmfunc
-    ```
-
--   vsdehalo vsutil 
-    
-    ```
-    pip install vsjetpack
-    ```
-
--   yvsfunc, rksfunc
-    
-    *   [yvsfunc](https://github.com/YomikoR/yvsfunc) 和 [rksfunc](https://github.com/RyougiKukoc/rksfunc) 不能使用 pip 安装，安装方法参考 [README 2.2.2.ii](https://github.com/AliceTeaParty/How-to-Create-an-Environment#22-塞入各种插件)
+```
+pip install getnative awsmfunc vsjetpack 
+pip install git+https://github.com/HomeOfVapourSynthEvolution/mvsfunc 
+pip install git+https://github.com/RyougiKukoc/rkstool.git
+pip install git+https://github.com/RyougiKukoc/rksfunc.git
+pip install git+https://github.com/RyougiKukoc/yvsfunc-with-toml.git
+```
 
 # Plugin-Level1
 
+-   [bilateralgpu](https://github.com/WolframRhodium/VapourSynth-BilateralGPU) `latest (r10)`
 -   [tcanny](https://github.com/AmusementClub/VapourSynth-TCanny) `latest (r14.AC4)`
 -   [lsmas](https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works) `latest (20250706 1266.0.0.0)`
--   [bestsource](https://github.com/vapoursynth/bestsource) `latest (R13)`
+-   [bestsource](https://github.com/vapoursynth/bestsource) `latest (R15)`
 -   [descale](https://github.com/Irrational-Encoding-Wizardry/descale) `latest (r8)`
     *   descale.py 丢到根目录下
 -   [fmtc](https://github.com/EleonoreMizo/fmtconv) `latest (r30)`
     *   项目已迁移到 [gitlab](https://gitlab.com/EleonoreMizo/fmtconv/) 但暂无 Release
--   [akarin](https://github.com/AkarinVS/vapoursynth-plugin) `latest (v0.96g3)`
+-   [akarin](https://github.com/Jaded-Encoding-Thaumaturgy/akarin-vapoursynth-plugin) `latest (v1.1.0)`
 -   [placebo](https://github.com/AmusementClub/vs-placebo) `latest (v1.4.4-mod)`
 -   [subtext](https://github.com/vapoursynth/subtext) `latest (R5)`
--   [vapoursynth-zip](https://github.com/dnjulek/vapoursynth-zip) `latest (R10)`
--   [zsmooth](https://github.com/adworacz/zsmooth) `latest (0.12)`
+-   [vapoursynth-zip](https://github.com/dnjulek/vapoursynth-zip) `latest (R11)`
+-   [zsmooth](https://github.com/adworacz/zsmooth) `latest (0.15)`
 -   [vs-noise](https://github.com/wwww-wwww/vs-noise) `latest (r4)`
 -   [resize2](https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-resize2) `latest (0.3.3)`
 -   [SNEEDIF](https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-SNEEDIF) `latest (R3)`
 -   [mvmanip](https://github.com/Mikewando/manipulate-motion-vectors) `latest (1.2.1)`
 -   [hysteresis](https://github.com/sgt0/vapoursynth-hysteresis) `latest (v1.0.6)`
--   [dfttest2](https://github.com/AmusementClub/vs-dfttest2)
-    *   把 dfttest2.py 丢到根目录或 site-packages 下，cufft-windows 压缩包里面有一个 vsmlrt-cuda 文件夹，把该文件夹扔到 plugins 里（不能把里面的 dll 直接丢到 plugins 里），vs-dfttest2-cuda-windows 压缩包里面的 dll 则直接扔到 vs-plugins 里。
+-   [fftspectrum-rs](https://github.com/sgt0/vapoursynth-fftspectrum-rs) `latest (v1.0.10)`
 
 # Plugin-Level2
 
 -   [knlm](https://github.com/AmusementClub/KNLMeansCL) `v1.1.1e-AC`
--   [nlm_ispc](https://github.com/AmusementClub/vs-nlm-ispc) `v2`
--   [nlm_cuda](https://github.com/AmusementClub/vs-nlm-cuda) `v2`
 -   [w2xnvk](https://github.com/Nlzy/vapoursynth-waifu2x-ncnn-vulkan) `R5`
     *   记得下载模型文件。
 -   [bilateral](https://github.com/AmusementClub/VapourSynth-Bilateral) `r3.AC`
@@ -104,14 +82,14 @@
 -   [tedgemask](https://github.com/dubhater/vapoursynth-tedgemask) `v1`
 -   [ctmf](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF) `r5`
 -   [dctf](https://github.com/Mr-Z-2697/VapourSynth-DCTFilter) `y33`
--   [deblock](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Deblock) `r6`
+-   [deblock](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Deblock) `r7.1`
 
 # Script-Level1
 
 -   [kagefunc](https://github.com/Irrational-Encoding-Wizardry/kagefunc/blob/master/kagefunc.py) `96947a1`
 -   [TAAmbk](https://github.com/HomeOfVapourSynthEvolution/vsTAAmbk/blob/master/vsTAAmbk.py) `fef19f8`
 -   [fvsfunc](https://github.com/Irrational-Encoding-Wizardry/fvsfunc/blob/master/fvsfunc.py) `076dbde `
--   [muvsfunc](https://github.com/WolframRhodium/muvsfunc/blob/master/muvsfunc.py) `a9c5cbe`
+-   [muvsfunc](https://github.com/WolframRhodium/muvsfunc/blob/master/muvsfunc.py) `634d58c`
 -   [getfnative](https://github.com/YomikoR/GetFnative/blob/main/getfnative.py) `9edcd58`
 
 # Script-Level2
