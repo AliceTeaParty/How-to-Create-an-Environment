@@ -27,15 +27,15 @@ pip install git+https://github.com/RyougiKukoc/yvsfunc-with-toml.git
 -   [bilateralgpu](https://github.com/WolframRhodium/VapourSynth-BilateralGPU) `latest (r10)`
 -   [tcanny](https://github.com/AmusementClub/VapourSynth-TCanny) `latest (r14.AC4)`
 -   [lsmas](https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works) `latest (20250706 1266.0.0.0)`
--   [bestsource](https://github.com/vapoursynth/bestsource) `latest (R15)`
--   [descale](https://github.com/Irrational-Encoding-Wizardry/descale) `latest (r8)`
+-   [bestsource](https://github.com/vapoursynth/bestsource) `latest (R16)`
+-   [descale](https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-descale) `latest (r11)`
     *   descale.py 丢到根目录下
 -   [fmtc](https://github.com/EleonoreMizo/fmtconv) `latest (r30)`
     *   项目已迁移到 [gitlab](https://gitlab.com/EleonoreMizo/fmtconv/) 但暂无 Release
 -   [akarin](https://github.com/Jaded-Encoding-Thaumaturgy/akarin-vapoursynth-plugin) `latest (v1.1.0)`
 -   [placebo](https://github.com/AmusementClub/vs-placebo) `latest (v1.4.4-mod)`
 -   [subtext](https://github.com/vapoursynth/subtext) `latest (R5)`
--   [vapoursynth-zip](https://github.com/dnjulek/vapoursynth-zip) `latest (R11)`
+-   [vapoursynth-zip](https://github.com/dnjulek/vapoursynth-zip) `latest (R13)`
 -   [zsmooth](https://github.com/adworacz/zsmooth) `latest (0.15)`
 -   [vs-noise](https://github.com/wwww-wwww/vs-noise) `latest (r4)`
 -   [resize2](https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-resize2) `latest (0.3.3)`
@@ -43,6 +43,7 @@ pip install git+https://github.com/RyougiKukoc/yvsfunc-with-toml.git
 -   [mvmanip](https://github.com/Mikewando/manipulate-motion-vectors) `latest (1.2.1)`
 -   [hysteresis](https://github.com/sgt0/vapoursynth-hysteresis) `latest (v1.0.6)`
 -   [fftspectrum-rs](https://github.com/sgt0/vapoursynth-fftspectrum-rs) `latest (v1.0.10)`
+-   [cambi](https://github.com/sgt0/vapoursynth-cambi) `latest (v1.1.4)`
 
 # Plugin-Level2
 
@@ -60,7 +61,7 @@ pip install git+https://github.com/RyougiKukoc/yvsfunc-with-toml.git
 -   [tivtc](https://github.com/dubhater/vapoursynth-tivtc) `v2`
 -   [addgrain](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain) `r10`
 -   [adaptivegrain](https://github.com/Irrational-Encoding-Wizardry/adaptivegrain) `0.3.1`
--   [eedi3](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3) `r7`
+-   [eedi3](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3) `r8`
 -   [znedi3](https://github.com/sekrit-twc/znedi3) `r2.1`
     *   nnedi3_weights.bin 有一个就够了
 -   [nnedi3cl](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-NNEDI3CL) `r8`
