@@ -15,11 +15,11 @@
 确保你的系统里有 git 并加入了系统 PATH（或者能在运行以下命令的终端里被找到）
 
 ```
-pip install getnative awsmfunc vsjetpack 
-pip install git+https://github.com/HomeOfVapourSynthEvolution/mvsfunc 
-pip install git+https://github.com/RyougiKukoc/rkstool.git
-pip install git+https://github.com/RyougiKukoc/rksfunc.git
-pip install git+https://github.com/RyougiKukoc/yvsfunc-with-toml.git
+pip install -U getnative awsmfunc vsjetpack 
+pip install -U git+https://github.com/HomeOfVapourSynthEvolution/mvsfunc 
+pip install -U git+https://github.com/RyougiKukoc/rkstool.git
+pip install -U git+https://github.com/RyougiKukoc/rksfunc.git
+pip install -U git+https://github.com/RyougiKukoc/yvsfunc-with-toml.git
 ```
 
 # Plugin-Level1
