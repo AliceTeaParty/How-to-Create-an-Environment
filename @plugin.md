@@ -20,6 +20,7 @@ pip install -U git+https://github.com/HomeOfVapourSynthEvolution/mvsfunc
 pip install -U git+https://github.com/RyougiKukoc/rkstool.git
 pip install -U git+https://github.com/RyougiKukoc/rksfunc.git
 pip install -U git+https://github.com/RyougiKukoc/yvsfunc-with-toml.git
+
 ```
 
 # Plugin-Level1

@@ -42,6 +42,9 @@ WinPython 在与根目录同级的地方放了一堆包装过的控制台（比�
 
 ## 2.4 将环境设置成系统默认 Python
 
-Magic-Raws 的工具链对此有需求，好在 WinPython 提供了非常方便地工具完成该项工作，在外层文件夹中，有一个与根目录同级的 `scripts` 文件夹，双击运行其中的 `register_python_for_all.bat` 即可将本环境设置成系统默认 Python 环境；双击运行其中的 `unregister_python_for_all.bat` 即可进行逆操作。
-
-对于环境升级或迁移，如果只使用 Windows 自带的“打开方式”工具，需要修改打开方式为原环境 `python.exe` 的文件名或删除之，再指向新的 `python.exe`，颇为麻烦。
+Magic-Raws 的工具链对将 `.py` 文件赋予可执行的打开方式有刚性需求，而 Windows 对修改可执行的默认打开方式有非常繁琐的流程，我们的仓库里提供一个 `py.bat`，代替各路 `python.exe`，起到一个 launcher 的作用，只需要把系统的 `.py` 文件默认打开方式修改为 `py.bat`，在更新环境时修改 `py.bat` 中的 `PYTHON_TO_USE` 即可。具体来说：你需要先把 `py.bat` 存放到系统的某个不轻易修改的地方（为方便表述，我们假设它被放在 `C:\green\py.bat`），打开一个*具有管理员权限*的 `cmd`，运行：
+```
+assoc .py=pyfile
+ftype pyfile="C:\green\py.bat" "%1" %*
+```
+然后找到任意一个 `.py` 文件（比如你可以下载本仓库中的 `test-path.py`）右键 -> 打开方式 -> 选择其它应用 -> 选择 `py.bat` -> 勾选“始终使用此应用打开 .py 文件” -> 确定。正常情况下你应该能观察到 `.py` 文件的图标变成空白文件图标。双击 `test-path.py`，如果你能看到正常的输出，那么环境配置就没有问题了。
