@@ -85,6 +85,7 @@ pip install -U git+https://github.com/RyougiKukoc/yvsfunc-with-toml.git
 -   [ctmf](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF) `r5`
 -   [dctf](https://github.com/Mr-Z-2697/VapourSynth-DCTFilter) `y33`
 -   [deblock](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Deblock) `r7.1`
+-   [fpng](https://github.com/Mikewando/vsfpng) `1.0`
 
 # Script-Level1
 
