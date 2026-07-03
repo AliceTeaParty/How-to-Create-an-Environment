@@ -1,0 +1,40 @@
+# Paths are resolved relative to this YAML file.
+input_dir: "."
+
+# Average one sample every N frames.
+sample_itv: 5000
+
+# Set to null for non-deterministic sampling.
+random_seed: 19260817
+
+# VapourSynth core cache size.
+max_cache_size: 25600
+
+# Crop is applied to src only.
+# Supported forms:
+#   [left, right]
+#   [left, right, top, bottom]
+crop_param: [0, 0, 0, 0]
+
+# src prefilter modes:
+#   0 = none
+#   1 = ivtc
+#   2 = deinterlace
+src_prefilter: 0
+
+src_ext: ".m2ts"
+
+# Choose exactly one rip extension here.
+# Default: use .hevc. Change to .mkv when needed.
+rip_ext: ".hevc"
+
+compare_flt: false
+flt_ext: ".gen.vpy"
+
+src_output_dir: "src"
+rip_output_dir: "rip"
+flt_output_dir: "flt"
+
+# true: always rewrite sampled PNGs
+# false: skip frame rendering when the target PNG already exists
+overwrite: false
