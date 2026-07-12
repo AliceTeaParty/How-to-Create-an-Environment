@@ -63,6 +63,7 @@ pip install "vapoursynth-tivtc @ git+https://github.com/RyougiKukoc/vapoursynth-
 pip install "vapoursynth-tcomb @ git+https://github.com/RyougiKukoc/vapoursynth-tcomb-api4.git"
 pip install "vapoursynth-tcanny @ git+https://github.com/RyougiKukoc/VapourSynth-TCanny-vcs.git"
 pip install "vapoursynth-bifrost @ git+https://github.com/RyougiKukoc/vapoursynth-bifrost-vcs.git"
+pip install "vapoursynth-misc @ git+https://github.com/RyougiKukoc/vs-miscfilters-obsolete-vcs.git"
 ```
 
 # 脚本
