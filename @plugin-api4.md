@@ -66,7 +66,8 @@ pip install "vapoursynth-bifrost @ git+https://github.com/RyougiKukoc/vapoursynt
 
 # 脚本
 ```bash
-pip install rksfunc rkstool
+pip install git+https://github.com/RyougiKukoc/rkstool.git
+pip install git+https://github.com/RyougiKukoc/rksfunc.git
 pip install getnative awsmfunc vsjetpack 
 pip install "vs-collection-rk @ git+https://github.com/RyougiKukoc/VapourSynth-Scripts-Collection.git"
 ```
