@@ -29,6 +29,7 @@ pip install -U vapoursynth-lsmas
 
 # 不太活跃维护的插件
 ```bash
+pip install vapoursynth-fmtconv
 pip install vapoursynth-descale 
 pip install vs-placebo
 pip install vapoursynth-cambi
