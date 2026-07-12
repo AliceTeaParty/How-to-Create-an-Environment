@@ -1,7 +1,7 @@
 @echo off
 setlocal
 
-set "PYTHON_TO_USE=C:\WPy64-313-Vapoursynth R73\python\python.exe"
+set "PYTHON_TO_USE=F:\WPy64-31450\python\python.exe"
 
 :execute
 echo --------------------------------------------------------------------------------
