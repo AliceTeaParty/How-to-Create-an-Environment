@@ -7,7 +7,7 @@
 set http_proxy=http://127.0.0.1:7890
 set https_proxy=http://127.0.0.1:7890
 ```
-4.  执行 `pip install vapoursynth` 和 `vapoursynth config` 若提示缺少 vc 依赖则按照提示安装（可能需要重启）
+4.  执行 `pip install -U --pre vapoursynth` 和 `vapoursynth config` 若提示缺少 vc 依赖则按照提示安装（可能需要重启）
 5.  根据 [@plugin-api4.md](@plugin-api4.md) 中的提示通过 pip 完成插件与脚本安装
 
 # VS Code 配置
