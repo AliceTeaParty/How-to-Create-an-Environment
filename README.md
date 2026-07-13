@@ -7,15 +7,15 @@
 set http_proxy=http://127.0.0.1:7890
 set https_proxy=http://127.0.0.1:7890
 ```
-4.  执行 `pip install -U --pre vapoursynth` 和 `vapoursynth config` 若提示缺少 vc 依赖则按照提示安装（可能需要重启）
+4.  执行 `pip install -U --pre vapoursynth vsstubs` 和 `vapoursynth config` 若提示缺少 vc 依赖则按照提示安装（可能需要重启）
 5.  根据 [@plugin-api4.md](@plugin-api4.md) 中的提示通过 pip 完成插件与脚本安装
 
 # VS Code 配置
 
 1.  安装 [vsedit](https://github.com/YomikoR/VapourSynth-Editor/releases) 后打开 `Edit->Settings->Paths` 将 `WinPython\\python\\Lib\\site-packages\\vapoursynth` 添加到 `VapourSynth library (VSScript) search paths` 中。我们需要用到 vsedit 安装目录下的 vsedit-previewer。
-2.  在 VS Code 中安装 Python 插件，打开任意 `.vpy` 文件，将文件关联设置成 Python。设置 Python 解释器为 `WinPython\\python` 下的 `python.exe`，此时 VS Code 中可以正常渲染 VapourSynth 插件了。如果你在后期添加了新的插件，可以重新运行步骤 1。
+2.  在 VS Code 中安装 Python 插件，打开任意 `.vpy` 文件，将文件关联设置成 Python。设置 Python 解释器为 `WinPython\\python` 下的 `python.exe`，此时 VS Code 中可以正常渲染 VapourSynth 插件了。每当添加了一批新的插件，可以执行 `vsstubs` 以取其语法提示
 3.  在 VS Code 中安装 Code Runner 插件，将 Run Code 快捷键绑定为 F5（这是 vsedit 的习惯，你也可以不这么操作），然后在插件设置中找到“Code-runner: Executor Map By Glob”，点击“在 settings.json 中编辑”，在弹出的配置中编辑：
-```
+```json
 "code-runner.executorMapByGlob": {
     "*.vpy": "vsedit-previewer的路径 $fullFileName",
     // 注意路径中的 \ 要替换为 \\，路径前后需要用双引号括起来，并且双引号前也要加一个 \，样例如下：
