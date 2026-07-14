@@ -29,6 +29,8 @@ pip install -U vapoursynth-lsmas
 
 # 不太活跃维护的插件
 ```bash
+pip install vapoursynth-mvutensils
+pip install vapoursynth-nnedi3vk
 pip install vapoursynth-eedi3vk2
 pip install vapoursynth-fmtconv
 pip install vapoursynth-descale 
