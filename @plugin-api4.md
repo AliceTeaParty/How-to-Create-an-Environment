@@ -22,16 +22,17 @@ pip install "vs-mlrt @ git+https://github.com/RyougiKukoc/vs-mlrt-api4.git@gener
 ```bash
 pip install -U vapoursynth-vszip 
 pip install -U vapoursynth-vszipcl
+pip install -U vapoursynth-vszipcu
 pip install -U vapoursynth-zsmooth
 pip install -U vapoursynth-bestsource
 pip install -U vapoursynth-lsmas
+pip install -U vapoursynth-mvutensils
+pip install -U vapoursynth-nnedi3vk
+pip install -U vapoursynth-eedi3vk2
 ```
 
 # 不太活跃维护的插件
 ```bash
-pip install vapoursynth-mvutensils
-pip install vapoursynth-nnedi3vk
-pip install vapoursynth-eedi3vk2
 pip install vapoursynth-fmtconv
 pip install vapoursynth-descale 
 pip install vs-placebo
@@ -56,7 +57,7 @@ pip install vapoursynth-fillborders
 pip install vapoursynth-awarp
 pip install vapoursynth-sangnom
 pip install vapoursynth-bm3d
-pip install -U vapoursynth-eedi3
+pip install vapoursynth-eedi3
 pip install "vs-nlq @ git+https://github.com/RyougiKukoc/vs-nlq.git"
 pip install "vapoursynth-nnedi3cl @ git+https://github.com/RyougiKukoc/VapourSynth-NNEDI3CL-api4.git"
 pip install "vapoursynth-smoothuv @ git+https://github.com/RyougiKukoc/vapoursynth-smoothuv-api4.git"
