@@ -56,6 +56,7 @@ pip install vapoursynth-fillborders
 pip install vapoursynth-awarp
 pip install vapoursynth-sangnom
 pip install vapoursynth-bm3d
+pip install -U vapoursynth-eedi3
 pip install "vs-nlq @ git+https://github.com/RyougiKukoc/vs-nlq.git"
 pip install "vapoursynth-nnedi3cl @ git+https://github.com/RyougiKukoc/VapourSynth-NNEDI3CL-api4.git"
 pip install "vapoursynth-smoothuv @ git+https://github.com/RyougiKukoc/vapoursynth-smoothuv-api4.git"
