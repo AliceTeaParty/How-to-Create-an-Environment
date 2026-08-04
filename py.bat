@@ -11,5 +11,5 @@ echo ---------------------------------------------------------------------------
 "%PYTHON_TO_USE%" %*
 set "EXIT_CODE=%ERRORLEVEL%"
 
-if not "%EXIT_CODE%"=="0" pause
+if not "%EXIT_CODE%"=="0" timeout /T 10
 exit /b %EXIT_CODE%
