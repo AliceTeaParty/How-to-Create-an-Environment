@@ -33,31 +33,31 @@ pip install -U vapoursynth-eedi3vk2
 
 # 不太活跃维护的插件
 ```bash
-pip install vapoursynth-fmtconv
-pip install vapoursynth-descale 
-pip install vs-placebo
-pip install vapoursynth-cambi
-pip install vapoursynth-fftspectrum_rs
-pip install vapoursynth-hysteresis
-pip install vapoursynth-manipmv
-pip install vapoursynth-sneedif
-pip install vapoursynth-resize2
-pip install vsnoise
-pip install vapoursynth-subtext
-pip install vapoursynth-akarin
-pip install vsfpng
-pip install vapoursynth-deblock
-pip install vapoursynth-dctfilter
-pip install vapoursynth-mvtools
-pip install vapoursynth-vivtc
-pip install vapoursynth-znedi3
-pip install vapoursynth-adaptivegrain
-pip install vapoursynth-edgefixer
-pip install vapoursynth-fillborders
-pip install vapoursynth-awarp
-pip install vapoursynth-sangnom
-pip install vapoursynth-bm3d
-pip install vapoursynth-eedi3
+pip install -U vapoursynth-fmtconv
+pip install -U vapoursynth-descale 
+pip install -U vs-placebo
+pip install -U vapoursynth-cambi
+pip install -U vapoursynth-fftspectrum_rs
+pip install -U vapoursynth-hysteresis
+pip install -U vapoursynth-manipmv
+pip install -U vapoursynth-sneedif
+pip install -U vapoursynth-resize2
+pip install -U vsnoise
+pip install -U vapoursynth-subtext
+pip install -U vapoursynth-akarin
+pip install -U vsfpng
+pip install -U vapoursynth-deblock
+pip install -U vapoursynth-dctfilter
+pip install -U vapoursynth-mvtools
+pip install -U vapoursynth-vivtc
+pip install -U vapoursynth-znedi3
+pip install -U vapoursynth-adaptivegrain
+pip install -U vapoursynth-edgefixer
+pip install -U vapoursynth-fillborders
+pip install -U vapoursynth-awarp
+pip install -U vapoursynth-sangnom
+pip install -U vapoursynth-bm3d
+pip install -U vapoursynth-eedi3
 pip install "vs-nlq @ git+https://github.com/RyougiKukoc/vs-nlq.git"
 pip install "vapoursynth-nnedi3cl @ git+https://github.com/RyougiKukoc/VapourSynth-NNEDI3CL-api4.git"
 pip install "vapoursynth-smoothuv @ git+https://github.com/RyougiKukoc/vapoursynth-smoothuv-api4.git"
@@ -75,8 +75,8 @@ pip install "vs-cfl @ git+https://github.com/RyougiKukoc/vs-cfl-vcs.git"
 
 # 脚本
 ```bash
-pip install git+https://github.com/RyougiKukoc/rkstool.git
-pip install git+https://github.com/RyougiKukoc/rksfunc.git
-pip install getnative awsmfunc vsjetpack 
-pip install "vs-collection-rk @ git+https://github.com/RyougiKukoc/VapourSynth-Scripts-Collection.git"
+pip install --force-reinstall git+https://github.com/RyougiKukoc/rkstool.git
+pip install --force-reinstall git+https://github.com/RyougiKukoc/rksfunc.git
+pip install --U getnative awsmfunc vsjetpack 
+pip install --force-reinstall "vs-collection-rk @ git+https://github.com/RyougiKukoc/VapourSynth-Scripts-Collection.git"
 ```
