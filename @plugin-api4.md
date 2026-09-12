@@ -77,6 +77,6 @@ pip install "vs-cfl @ git+https://github.com/RyougiKukoc/vs-cfl-vcs.git"
 ```bash
 pip install --force-reinstall git+https://github.com/RyougiKukoc/rkstool.git
 pip install --force-reinstall git+https://github.com/RyougiKukoc/rksfunc.git
-pip install --U getnative awsmfunc vsjetpack 
+pip install -U getnative awsmfunc vsjetpack 
 pip install --force-reinstall "vs-collection-rk @ git+https://github.com/RyougiKukoc/VapourSynth-Scripts-Collection.git"
 ```
