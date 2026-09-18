@@ -29,11 +29,13 @@ pip install -U vapoursynth-lsmas
 pip install -U vapoursynth-mvutensils
 pip install -U vapoursynth-nnedi3vk
 pip install -U vapoursynth-eedi3vk2
+pip install -U vapoursynth-bm3dvk
 ```
 
 # 不太活跃维护的插件
 ```bash
-pip install -U vapoursynth-fmtconv
+pip install -U --extra-index-url https://jaded-encoding-thaumaturgy.github.io/vs-wheels/simple vapoursynth-fmtconv
+pip install -U --extra-index-url https://jaded-encoding-thaumaturgy.github.io/vs-wheels/simple vapoursynth-ffms2
 pip install -U vapoursynth-descale 
 pip install -U vs-placebo
 pip install -U vapoursynth-cambi
