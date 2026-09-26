@@ -1,21 +1,21 @@
 # 特殊插件
 根据显卡选择，如果你的显卡（及其驱动）支持 CUDA 12.9：
 ```bash
-pip install "vapoursynth-bm3dcuda @ git+https://github.com/RyougiKukoc/VapourSynth-BM3DCUDA-api4.git@cu129"
-pip install "vapoursynth-dfttest2 @ git+https://github.com/RyougiKukoc/vs-dfttest2-api4.git@cu129"
-pip install "vs-mlrt @ git+https://github.com/RyougiKukoc/vs-mlrt-api4.git@cu129"
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vs-mlrt-cu129
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vapoursynth-bm3dcuda-cu129
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vapoursynth-dfttest2-cu129
 ```
 或者至少支持 CUDA 12.1：
 ```bash
-pip install "vapoursynth-bm3dcuda @ git+https://github.com/RyougiKukoc/VapourSynth-BM3DCUDA-api4.git@cu121"
-pip install "vapoursynth-dfttest2 @ git+https://github.com/RyougiKukoc/vs-dfttest2-api4.git@cu121"
-pip install "vs-mlrt @ git+https://github.com/RyougiKukoc/vs-mlrt-api4.git@cu121"
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vs-mlrt-cu121
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vapoursynth-bm3dcuda-cu121
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vapoursynth-dfttest2-cu121
 ```
 否则：
 ```bash
-pip install "vapoursynth-bm3dcuda @ git+https://github.com/RyougiKukoc/VapourSynth-BM3DCUDA-api4.git@cpu"
-pip install "vapoursynth-dfttest2 @ git+https://github.com/RyougiKukoc/vs-dfttest2-api4.git@cpu"
-pip install "vs-mlrt @ git+https://github.com/RyougiKukoc/vs-mlrt-api4.git@generic"
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vs-mlrt-generic
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vapoursynth-bm3dcpu
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vapoursynth-dfttest2-cpu
 ```
 
 # 活跃维护的插件
@@ -29,13 +29,10 @@ pip install -U vapoursynth-lsmas
 pip install -U vapoursynth-mvutensils
 pip install -U vapoursynth-nnedi3vk
 pip install -U vapoursynth-eedi3vk2
-pip install -U vapoursynth-bm3dvk
 ```
 
 # 不太活跃维护的插件
 ```bash
-pip install -U --extra-index-url https://jaded-encoding-thaumaturgy.github.io/vs-wheels/simple vapoursynth-fmtconv
-pip install -U --extra-index-url https://jaded-encoding-thaumaturgy.github.io/vs-wheels/simple vapoursynth-ffms2
 pip install -U vapoursynth-descale 
 pip install -U vs-placebo
 pip install -U vapoursynth-cambi
@@ -61,19 +58,21 @@ pip install -U vapoursynth-sangnom
 pip install -U vapoursynth-bm3d
 pip install -U vapoursynth-eedi3
 pip install -U vapoursynth-edgemasks
-pip install "vs-nlq @ git+https://github.com/RyougiKukoc/vs-nlq.git"
-pip install "vapoursynth-nnedi3cl @ git+https://github.com/RyougiKukoc/VapourSynth-NNEDI3CL-api4.git"
-pip install "vapoursynth-smoothuv @ git+https://github.com/RyougiKukoc/vapoursynth-smoothuv-api4.git"
-pip install "vapoursynth-dfttest @ git+https://github.com/RyougiKukoc/VapourSynth-DFTTest-api4.git"
-pip install "vapoursynth-knlm @ git+https://github.com/RyougiKukoc/VapourSynth-KNLMeansCL-api4.git"
-pip install "vapoursynth-retinex @ git+https://github.com/RyougiKukoc/VapourSynth-Retinex-api4.git"
-pip install "vapoursynth-tivtc @ git+https://github.com/RyougiKukoc/vapoursynth-tivtc-api4.git"
-pip install "vapoursynth-tcomb @ git+https://github.com/RyougiKukoc/vapoursynth-tcomb-api4.git"
-pip install "vapoursynth-tcanny @ git+https://github.com/RyougiKukoc/VapourSynth-TCanny-vcs.git"
-pip install "vapoursynth-bifrost @ git+https://github.com/RyougiKukoc/vapoursynth-bifrost-vcs.git"
-pip install "vapoursynth-misc @ git+https://github.com/RyougiKukoc/vs-miscfilters-obsolete-vcs.git"
-pip install "vapoursynth-fft3dfilter @ git+https://github.com/RyougiKukoc/VapourSynth-FFT3DFilter-vcs.git"
-pip install "vs-cfl @ git+https://github.com/RyougiKukoc/vs-cfl-vcs.git"
+pip install -U vapoursynth-bifrost
+pip install -U vapoursynth-tivtc
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U vs-nlq
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U vs-cfl
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U vapoursynth-misc
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U vapoursynth-fft3dfilter
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U vapoursynth-tcanny
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U vapoursynth-tcomb
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U vapoursynth-retinex
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U vapoursynth-knlm
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U vapoursynth-dfttest
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U vapoursynth-smoothuv
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U vapoursynth-nnedi3cl
+pip install -U --extra-index-url https://jaded-encoding-thaumaturgy.github.io/vs-wheels/simple vapoursynth-fmtconv
+pip install -U --extra-index-url https://jaded-encoding-thaumaturgy.github.io/vs-wheels/simple vapoursynth-ffms2
 ```
 
 # 脚本
