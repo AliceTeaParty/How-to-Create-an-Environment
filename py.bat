@@ -3,6 +3,13 @@ setlocal
 
 set "PYTHON_TO_USE=F:\WPy64-31450\python\python.exe"
 
+if not "%~1"=="" if exist "%~1" (
+    for %%F in ("%~1") do if %%~zF EQU 0 (
+        start "" code.exe "%%~fF"
+        exit /b 0
+    )
+)
+
 :execute
 echo --------------------------------------------------------------------------------
 echo Working Directory: "%CD%"
