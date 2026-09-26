@@ -77,8 +77,8 @@ pip install -U --extra-index-url https://jaded-encoding-thaumaturgy.github.io/vs
 
 # 脚本
 ```bash
-pip install --force-reinstall git+https://github.com/RyougiKukoc/rkstool.git
-pip install --force-reinstall git+https://github.com/RyougiKukoc/rksfunc.git
-pip install -U getnative awsmfunc vsjetpack 
-pip install --force-reinstall "vs-collection-rk @ git+https://github.com/RyougiKukoc/VapourSynth-Scripts-Collection.git"
+pip install git+https://github.com/RyougiKukoc/rkstool.git
+pip install git+https://github.com/RyougiKukoc/rksfunc.git
+pip install getnative awsmfunc vsjetpack 
+pip install "vs-collection-rk @ git+https://github.com/RyougiKukoc/VapourSynth-Scripts-Collection.git"
 ```
