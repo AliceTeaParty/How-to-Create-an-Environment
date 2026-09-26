@@ -71,8 +71,8 @@ pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-w
 pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U vapoursynth-dfttest
 pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U vapoursynth-smoothuv
 pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U vapoursynth-nnedi3cl
-pip install -U --extra-index-url https://jaded-encoding-thaumaturgy.github.io/vs-wheels/simple vapoursynth-fmtconv
-pip install -U --extra-index-url https://jaded-encoding-thaumaturgy.github.io/vs-wheels/simple vapoursynth-ffms2
+pip install --extra-index-url https://jaded-encoding-thaumaturgy.github.io/vs-wheels/simple -U vapoursynth-fmtconv
+pip install --extra-index-url https://jaded-encoding-thaumaturgy.github.io/vs-wheels/simple -U vapoursynth-ffms2
 ```
 
 # 脚本
