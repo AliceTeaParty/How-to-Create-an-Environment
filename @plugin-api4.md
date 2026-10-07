@@ -1,21 +1,23 @@
 # 特殊插件
+以下命令固定使用 api4-wheels 提供的 `+alice.1` 版本，避免 pip 从 PyPI 选中同名包。
+
 根据显卡选择，如果你的显卡（及其驱动）支持 CUDA 12.9：
 ```bash
-pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vs-mlrt-cu129
-pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vapoursynth-bm3dcuda-cu129
-pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vapoursynth-dfttest2-cu129
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ "vs-mlrt-cu129==16.2.6+alice.1"
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ "vapoursynth-bm3dcuda-cu129==2.16+alice.1"
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ "vapoursynth-dfttest2-cu129==10.2+alice.1"
 ```
 或者至少支持 CUDA 12.1：
 ```bash
-pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vs-mlrt-cu121
-pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vapoursynth-bm3dcuda-cu121
-pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vapoursynth-dfttest2-cu121
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ "vs-mlrt-cu121==16.2.6+alice.1"
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ "vapoursynth-bm3dcuda-cu121==2.16+alice.1"
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ "vapoursynth-dfttest2-cu121==10.2+alice.1"
 ```
 否则：
 ```bash
-pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vs-mlrt-generic
-pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vapoursynth-bm3dcpu
-pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vapoursynth-dfttest2-cpu
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ "vs-mlrt-generic==16.2.6+alice.1"
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ "vapoursynth-bm3dcpu==2.16+alice.1"
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ "vapoursynth-dfttest2-cpu==10.2+alice.1"
 ```
 
 # 活跃维护的插件
@@ -77,8 +79,8 @@ pip install --extra-index-url https://jaded-encoding-thaumaturgy.github.io/vs-wh
 
 # 脚本
 ```bash
-pip install git+https://github.com/RyougiKukoc/rkstool.git
-pip install git+https://github.com/RyougiKukoc/rksfunc.git
+pip install --index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ rkstool
+pip install --index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ rksfunc
 pip install getnative awsmfunc vsjetpack 
-pip install "vs-collection-rk @ git+https://github.com/RyougiKukoc/VapourSynth-Scripts-Collection.git"
+pip install --index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vs-collection-rk
 ```
