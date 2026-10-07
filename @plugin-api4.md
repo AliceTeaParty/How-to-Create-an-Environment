@@ -79,8 +79,6 @@ pip install --extra-index-url https://jaded-encoding-thaumaturgy.github.io/vs-wh
 
 # 脚本
 ```bash
-pip install --index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ rkstool
-pip install --index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ rksfunc
-pip install getnative awsmfunc vsjetpack 
-pip install --index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ vs-collection-rk
+pip install --extra-index-url https://aliceteaparty.github.io/vapoursynth-api4-wheels/simple/ -U rkstool rksfunc vs-collection-rk
+pip install -U getnative awsmfunc vsjetpack 
 ```
